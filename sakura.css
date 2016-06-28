@@ -1,0 +1,61 @@
+/*Base defaults*/
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4a4a4a;
+    background-color: #f9f9f9;
+}
+
+body {
+    max-width: 750px;
+    margin: auto;
+    padding: 1em;
+}
+
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+}
+
+@media only screen and (min-width: 961px){
+    html {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+/*Text*/
+p {
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+/*Lists*/
+ul {
+    padding-left: 1.4em;
+}
+
+/*============================*/
+/*You can change these values*/
+/*============================*/
+
+a {
+    text-decoration: none;
+    color: #2c8898;
+    border-bottom: 1px solid #2e9db0;
+}
+
+a:hover {
+    color: #982c61;
+    border-bottom: 1px solid #b83374;
+}
+
+a:active {
+    color: #982c61;
+}

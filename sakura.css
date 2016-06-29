@@ -41,9 +41,29 @@ ul {
     padding-left: 1.4em;
 }
 
+li {
+    margin-bottom: 0.4em;
+}
+
 /*============================*/
 /*You can change these values*/
 /*============================*/
+
+/*2 alternate colors - duotones*/
+/*Replace these colors to change entire theme*/
+/*Replace all occurances, this is not scss/less ;)*/
+.sakura-blossom {
+    color: #982c61;
+}
+a.sakura-blossom:hover {
+    color: #2e9db0;
+}
+.sakura-fade {
+    color: #2c8898;
+}
+a.sakura-fade:hover {
+    color: #b83374;
+}
 
 a {
     text-decoration: none;
@@ -54,8 +74,4 @@ a {
 a:hover {
     color: #982c61;
     border-bottom: 1px solid #b83374;
-}
-
-a:active {
-    color: #982c61;
 }

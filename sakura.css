@@ -1,8 +1,6 @@
-/*! sakura.css 0.1.0 | MIT License */
+/*! sakura.css 0.2.0 | MIT License */
 /*! github.com/miteshninja/sakura */
 
-
-/*Base defaults*/
 html {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -26,12 +24,11 @@ body {
 
 @media only screen and (min-width: 961px){
     html {
-        font-size: 20px;
-        line-height: 1.6;
+        font-size: 19px;
+        line-height: 1.5;
     }
 }
 
-/*Text*/
 p {
     text-align: justify;
 }
@@ -40,7 +37,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
-/*Lists*/
 ul {
     padding-left: 1.4em;
 }
@@ -49,13 +45,59 @@ li {
     margin-bottom: 0.4em;
 }
 
-/*============================*/
-/*You can change these values*/
-/*============================*/
+blockquote {
+    font-style: italic;
+    padding-left: 1em;
+    border-left: 3px solid #982c61;
+}
 
+a {
+    text-decoration: none;
+    color: #2c8898;
+    border-bottom: 1px solid #2e9db0;
+}
+
+a:hover {
+    color: #982c61;
+    border-bottom: 1px solid #b83374;
+}
+
+/* Buttons, forms and input*/
+input, textarea {
+    border: 1px solid #2e9db0;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #b83374;
+    /*outline: 0;*/
+}
+
+select, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    margin-bottom: 0.5em;
+    padding: 0 1em;
+    background-color: #2e9db0;
+    border: 1px solid #2e9db0;
+    color: #f9f9f9;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+    background-color: #b83374;
+    border: 1px solid #b83374;
+    color: #f9f9f9;
+    line-height: inherit;
+}
+
+
+button:active, input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
+    background-color: #982c61;
+    border: 1px solid #982c61;
+}
+
+/* ================================================================= */
+/* Replace all occurances of these colors to change the entire theme! */
 /*2 alternate colors - duotones*/
-/*Replace these colors to change entire theme*/
-/*Replace all occurances, this is not scss/less ;)*/
 .sakura-blossom {
     color: #982c61;
 }
@@ -69,13 +111,12 @@ a.sakura-fade:hover {
     color: #b83374;
 }
 
-a {
-    text-decoration: none;
-    color: #2c8898;
-    border-bottom: 1px solid #2e9db0;
+/* Background and text color */
+.background-color {
+    background-color: #f9f9f9;
 }
 
-a:hover {
-    color: #982c61;
-    border-bottom: 1px solid #b83374;
+.text-color {
+    color: #4a4a4a;
 }
+/* ================================================================= */

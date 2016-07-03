@@ -1,4 +1,4 @@
-/*! sakura.css 0.3.0 | MIT License */
+/*! sakura.css 0.3.1 | MIT License */
 /*! github.com/miteshninja/sakura */
 
 html {
@@ -73,11 +73,13 @@ code {
     font-size: 90%;
     padding: 0 0.5em;
     background-color: #f1f1f1;
+    white-space: pre-wrap;
 }
 
 pre > code {
     padding: 0;
     background-color: transparent;
+    white-space: pre;
 }
 
 /* Buttons, forms and input*/

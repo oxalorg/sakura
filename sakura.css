@@ -1,4 +1,4 @@
-/*! sakura.css 0.3.1 | MIT License */
+/*! sakura.css 0.3.2 | MIT License */
 /*! github.com/miteshninja/sakura */
 
 html {
@@ -49,6 +49,10 @@ blockquote {
     font-style: italic;
     padding-left: 1em;
     border-left: 3px solid #982c61;
+}
+
+img {
+    max-width: 100%;
 }
 
 a {

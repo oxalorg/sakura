@@ -125,6 +125,18 @@ button:active, input[type="submit"]:active, input[type="reset"]:active, input[ty
     border: 1px solid #982c61;
 }
 
+
+table {
+    text-align: justify;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    border-bottom: 1px solid #982c61;
+}
+
 /* ================================================================= */
 /* Replace all occurances of these colors to change the entire theme! */
 /* Shades of 2 alternate colors - duotones*/
@@ -157,3 +169,5 @@ a.sakura-fade:hover {
     color: #4a4a4a;
 }
 /* ================================================================= */
+
+

@@ -131,8 +131,9 @@ table {
 }
 
 td, th {
+    background-color: #f1f1f1;
     padding: 8px;
-    border-bottom: 1px solid #bababa;
+    border-bottom: 1px solid #f9f9f9;
 }
 
 /* ================================================================= */

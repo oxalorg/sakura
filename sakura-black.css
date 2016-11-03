@@ -2,7 +2,6 @@
 /*! github.com/miteshninja/sakura */
 
 html {
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: #4a4a4a;
@@ -54,7 +53,7 @@ li {
 blockquote {
     font-style: italic;
     padding-left: 1em;
-    border-left: 3px solid #982c61;
+    border-left: 3px solid #000000;
 }
 
 img {
@@ -63,13 +62,13 @@ img {
 
 a {
     text-decoration: none;
-    color: #2c8898;
-    border-bottom: 1px solid #2e9db0;
+    color: #4a4a4a;
+    border-bottom: 1px solid #5e5e5e;
 }
 
 a:hover {
-    color: #982c61;
-    border-bottom: 2px solid #b83374;
+    color: #000000;
+    border-bottom: 2px solid #000000;
 }
 
 pre {
@@ -94,57 +93,51 @@ pre > code {
 
 /* Buttons, forms and input*/
 input, textarea {
-    border: 1px solid #2e9db0;
+    border: 1px solid #5e5e5e;
 }
 
 input:focus, textarea:focus {
-    border: 1px solid #b83374;
+    border: 1px solid #000000;
     /*outline: 0;*/
 }
 
 select, button, input[type="submit"], input[type="reset"], input[type="button"] {
     margin-bottom: 0.5em;
     padding: 0 1em;
-    background-color: #2e9db0;
-    border: 1px solid #2e9db0;
+    background-color: #5e5e5e;
+    border: 1px solid #5e5e5e;
     color: #f9f9f9;
     line-height: inherit;
     cursor: pointer;
 }
 
 button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
-    background-color: #b83374;
-    border: 1px solid #b83374;
+    background-color: #000000;
+    border: 1px solid #000000;
     color: #f9f9f9;
     line-height: inherit;
 }
 
 
 button:active, input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
-    background-color: #982c61;
-    border: 1px solid #982c61;
+    background-color: #000000;
+    border: 1px solid #000000;
 }
 
 /* ================================================================= */
 /* Replace all occurances of these colors to change the entire theme! */
 /* Shades of 2 alternate colors - duotones*/
 .sakura-blossom {
-    color: #982c61;
-}
-.sakura-blossom-light {
-    color: #d6a2bb;
+    color: #000000;
 }
 a.sakura-blossom:hover {
-    color: #2e9db0;
+    color: #5e5e5e;
 }
 .sakura-fade {
-    color: #2c8898;
-}
-.sakura-fade-light{
-    color: #67c7d8;
+    color: #4a4a4a;
 }
 a.sakura-fade:hover {
-    color: #b83374;
+    color: #000000;
 }
 
 .background-color {

@@ -6,10 +6,9 @@ It's more of a theme because you can just drop in `sakura.css` and go from ugly 
 
 ## Sites using Sakura
 
+* https://oxal.org/usr/stab
 * http://owlofathena.com
-* http://lib.oxal.org/stab/
 * http://findyourip.cf
-* https://oxal.org/ox
 
 ## Share some <3
 

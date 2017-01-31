@@ -1,0 +1,171 @@
+/* Sakura.css v0.5.0
+ * ================
+ * Project: https://github.com/oxalorg/Vader.css
+ */
+
+$color-bg: #120c0e;
+$color-bg-alt: #40363a;
+/* $color-text: #dedce5; */
+$color-text: #d9d8dc;
+$color-sith: #DA4453;
+$color-jedi: lighten($color-sith, 20%);
+
+$font-size-base: 18px;
+
+/* Body */
+
+html {
+    font-family: sans-serif;
+    font-size: $font-size-base;
+}
+
+body {
+    line-height: 1.618;
+    max-width: $font-size-base * 38;
+    margin: auto;
+    color: $color-text;
+    background-color: $color-bg;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+    margin-bottom: $font-size-base * 0.8;
+    margin-top: $font-size-base * 2.2;
+    font-weight: 500;
+}
+
+h1 { font-size: $font-size-base * 2.5 }
+h2 { font-size: $font-size-base * 2.15 }
+h3 { font-size: $font-size-base * 1.75 }
+h4 { font-size: $font-size-base * 1.5 }
+h5 { font-size: $font-size-base * 1.25 }
+h6 { font-size: $font-size-base * 1 }
+
+small, sub, sup {
+    font-size: 65%;
+}
+
+hr {
+    border-color: $color-jedi;
+}
+
+a {
+    text-decoration: none;
+    color: $color-jedi;
+
+    &:hover {
+        color: $color-sith;
+        border-bottom: 2px solid $color-text;
+    }
+
+}
+
+ul {
+    padding-left: 1.4em;
+}
+
+li {
+    margin-bottom: 0.4em;
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 1em;
+    border-left: 3px solid $color-jedi;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Pre and Code */
+
+pre {
+    background-color: $color-bg-alt;
+    display: block;
+    padding: 1em;
+    overflow-x: scroll;
+}
+
+code {
+    font-size: 90%;
+    padding: 0 0.5em;
+    background-color: $color-bg-alt;
+    white-space: pre-wrap;
+}
+
+pre > code {
+    padding: 0;
+    background-color: transparent;
+    white-space: pre;
+}
+
+/* Tables */
+
+table {
+    text-align: justify;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    border-bottom: 1px solid $color-bg-alt;
+}
+
+/* Buttons, forms and input */
+
+input, textarea {
+    border: 1px solid $color-text;
+
+    &:focus {
+        border: 1px solid $color-jedi;
+    }
+}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    display: inline-block;
+    padding: 0 30px;
+    color: $color-text;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid $color-text;
+    cursor: pointer;
+    box-sizing: border-box; 
+
+    &:focus, &:hover {
+        background-color: $color-sith;
+        border-color: $color-jedi;
+        outline: 0; 
+    }
+}
+
+textarea, select, input[type] {
+    color: $color-text;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    margin-bottom: 10px;
+    background-color: $color-bg-alt;
+    border: 1px solid $color-bg-alt;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+
+    &:focus {
+        border: 1px solid $color-jedi;
+        outline: 0;
+    }
+}
+
+label, legend, fieldset {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600; 
+}
+

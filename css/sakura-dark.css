@@ -1,0 +1,138 @@
+html {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+body {
+  line-height: 1.618;
+  max-width: 684px;
+  margin: auto;
+  color: #c9c9c9;
+  background-color: #222222;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+  margin-bottom: 14.4px;
+  margin-top: 39.6px;
+  font-weight: 500;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 38.7px;
+}
+h3 {
+  font-size: 31.5px;
+}
+h4 {
+  font-size: 27px;
+}
+h5 {
+  font-size: 22.5px;
+}
+h6 {
+  font-size: 18px;
+}
+small, sub, sup {
+  font-size: 65%;
+}
+hr {
+  border-color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: #c9c9c9;
+  border-bottom: 2px solid #c9c9c9;
+}
+ul {
+  padding-left: 1.4em;
+}
+li {
+  margin-bottom: 0.4em;
+}
+blockquote {
+  font-style: italic;
+  padding-left: 1em;
+  border-left: 3px solid #ffffff;
+}
+img {
+  max-width: 100%;
+}
+pre {
+  background-color: #4a4a4a;
+  display: block;
+  padding: 1em;
+  overflow-x: scroll;
+}
+code {
+  font-size: 90%;
+  padding: 0 0.5em;
+  background-color: #4a4a4a;
+  white-space: pre-wrap;
+}
+pre > code {
+  padding: 0;
+  background-color: transparent;
+  white-space: pre;
+}
+table {
+  text-align: justify;
+  width: 100%;
+  border-collapse: collapse;
+}
+td, th {
+  padding: 8px;
+  border-bottom: 1px solid #4a4a4a;
+}
+input, textarea {
+  border: 1px solid #c9c9c9;
+}
+input:focus, textarea:focus {
+  border: 1px solid #ffffff;
+}
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  display: inline-block;
+  padding: 0 30px;
+  color: #c9c9c9;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #c9c9c9;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.button:focus, .button:hover, button:focus, button:hover,
+input[type="submit"]:focus, input[type="submit"]:hover, input[type="reset"]:focus,
+input[type="reset"]:hover, input[type="button"]:focus, input[type="button"]:hover {
+  background-color: #c9c9c9;
+  border-color: #ffffff;
+  outline: 0;
+}
+textarea, select, input[type] {
+  color: #c9c9c9;
+  padding: 6px 10px;
+  margin-bottom: 10px;
+  background-color: #4a4a4a;
+  border: 1px solid #4a4a4a;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+textarea:focus, select:focus, input[type]:focus {
+  border: 1px solid #ffffff;
+  outline: 0;
+}
+label, legend, fieldset {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}

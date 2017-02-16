@@ -6,7 +6,7 @@
 /* Body */
 
 html {
-    font-family: sans-serif;
+    font-family: serif;
     font-size: $font-size-base;
 }
 
@@ -19,7 +19,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: serif;
+    line-height: 1.41;
+    font-family: sans-serif;
     margin-bottom: $font-size-base * 0.8;
     margin-top: $font-size-base * 2.2;
     font-weight: 500;

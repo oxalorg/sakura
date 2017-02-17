@@ -1,4 +1,4 @@
-/* Sakura.css v0.6.0
+/* Sakura.css v0.6.1
  * ================
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura
@@ -145,25 +145,32 @@ input, textarea {
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
     display: inline-block;
-    padding: 0 30px;
-    color: $color-text;
+    padding: 0 0.5em;
+    margin-bottom: 0.5rem;
     text-align: center;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: .1rem;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: 600;
     white-space: nowrap;
+
+    color: $color-blossom;
     background-color: transparent;
-    border-radius: 4px;
-    border: 1px solid $color-text;
+    border-radius: 0.5em;
+    border: 0.2em solid $color-blossom;
+    height: 2em;
     cursor: pointer;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+
+    &[disabled] {
+        cursor: default;
+        opacity: .5;
+    }
 
     &:focus, &:hover {
-        background-color: $color-fade;
-        border-color: $color-blossom;
-        outline: 0; 
+        background-color: transparent;
+        border-color: $color-fade;
+        color: $color-fade;
+        outline: 0;
     }
 }
 

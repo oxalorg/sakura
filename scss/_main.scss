@@ -64,15 +64,15 @@ small, sub, sup {
 }
 
 hr {
-    border-color: $color-jedi;
+    border-color: $color-blossom;
 }
 
 a {
     text-decoration: none;
-    color: $color-jedi;
+    color: $color-blossom;
 
     &:hover {
-        color: $color-sith;
+        color: $color-fade;
         border-bottom: 2px solid $color-text;
     }
 
@@ -90,7 +90,7 @@ blockquote {
     font-style: italic;
     margin-left: 1.5em;
     padding-left: 1em;
-    border-left: 3px solid $color-jedi;
+    border-left: 3px solid $color-blossom;
 }
 
 img {
@@ -138,7 +138,7 @@ input, textarea {
     border: 1px solid $color-text;
 
     &:focus {
-        border: 1px solid $color-jedi;
+        border: 1px solid $color-blossom;
     }
 }
 
@@ -160,8 +160,8 @@ input, textarea {
     box-sizing: border-box; 
 
     &:focus, &:hover {
-        background-color: $color-sith;
-        border-color: $color-jedi;
+        background-color: $color-fade;
+        border-color: $color-blossom;
         outline: 0; 
     }
 }
@@ -177,7 +177,7 @@ textarea, select, input[type] {
     box-sizing: border-box;
 
     &:focus {
-        border: 1px solid $color-jedi;
+        border: 1px solid $color-blossom;
         outline: 0;
     }
 }

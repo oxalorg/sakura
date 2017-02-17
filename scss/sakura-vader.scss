@@ -1,10 +1,12 @@
+$color-force: #DA4453;
+$color-blossom: lighten($color-force, 20%);
+$color-fade: $color-force;
+
 $color-bg: #120c0e;
 $color-bg-alt: #40363a;
+
 /* $color-text: #dedce5; */
 $color-text: #d9d8dc;
-$color-sith: #DA4453;
-$color-jedi: lighten($color-sith, 20%);
-
-$font-size-base: 18px;
+$font-size-base: 1.8rem;
 
 @import "main";

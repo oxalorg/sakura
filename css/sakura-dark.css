@@ -1,41 +1,60 @@
 html {
+  font-size: 62.5%;
   font-family: serif;
-  font-size: 18px;
 }
 body {
+  font-size: 1.8rem;
   line-height: 1.618;
-  max-width: 684px;
+  max-width: 38em;
   margin: auto;
   color: #c9c9c9;
   background-color: #222222;
 }
+@media (max-width: 684px) {
+  body {
+    font-size: 1.53rem;
+  }
+}
+@media (max-width: 382px) {
+  body {
+    font-size: 1.35rem;
+  }
+}
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.41;
+  line-height: 1.15;
+  margin-bottom: 0em;
   font-family: sans-serif;
-  margin-bottom: 14.4px;
-  margin-top: 39.6px;
   font-weight: 500;
+  letter-spacing: -0.9px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 h1 {
-  font-size: 45px;
+  font-size: 2.35em;
 }
 h2 {
-  font-size: 38.7px;
+  font-size: 2em;
 }
 h3 {
-  font-size: 31.5px;
+  font-size: 1.75em;
 }
 h4 {
-  font-size: 27px;
+  font-size: 1.5em;
 }
 h5 {
-  font-size: 22.5px;
+  font-size: 1.25em;
 }
 h6 {
-  font-size: 18px;
+  font-size: 1em;
 }
 small, sub, sup {
-  font-size: 65%;
+  font-size: 75%;
 }
 hr {
   border-color: #ffffff;
@@ -56,6 +75,7 @@ li {
 }
 blockquote {
   font-style: italic;
+  margin-left: 1.5em;
   padding-left: 1em;
   border-left: 3px solid #ffffff;
 }
@@ -69,7 +89,7 @@ pre {
   overflow-x: scroll;
 }
 code {
-  font-size: 90%;
+  font-size: 0.9em;
   padding: 0 0.5em;
   background-color: #4a4a4a;
   white-space: pre-wrap;
@@ -85,7 +105,7 @@ table {
   border-collapse: collapse;
 }
 td, th {
-  padding: 8px;
+  padding: 0.5em;
   border-bottom: 1px solid #4a4a4a;
 }
 input, textarea {

@@ -1,6 +1,6 @@
-# sakura
+# [sakura](https://oxal.org/projects/sakura): a minimal ***classless*** css *framework* / **theme**.
 
-minimal ***classless*** css *framework* / **theme**.
+[Go to [Github repository](https://github.com/oxalorg/sakura)]
 
 Just drop in `sakura.css` to any webpage and go from
 ugly looking 1900's website to a pretty modern website
@@ -12,14 +12,22 @@ variables for duotone color scheming.
 Comes with several existing themes, can be found in the
 `css` folder of this repository.
 
+## Demo
+
+Compare a live page **WITH** and **WITHOUT** sakura.
+
+* https://oxal.org/projects/sakura/demo
+
 ## Installation
 
 1. Download the file:
 
-   ```
-   wget "https://raw.githubusercontent.com/oxalorg/sakura/master/css/sakura.css"
+    ```
+    wget "https://raw.githubusercontent.com/oxalorg/sakura/master/css/sakura.css"
+    ```
 
-   ```
+    **OR** download directly:
+    [sakura.css](https://raw.githubusercontent.com/oxalorg/sakura/master/css/sakura.css)
 
 2. Link it from html:
 
@@ -31,15 +39,9 @@ Comes with several existing themes, can be found in the
 [normalize.css](https://github.com/necolas/normalize.css/)
 to reset before using sakura.
 
-## Demo
-
-Compare a live page **WITH** and **WITHOUT** sakura.
-
-* https://oxal.org/projects/sakura/
-
 ## Sites using Sakura
 
-* https://computableverse.com
+* http://computableverse.com
 * http://owlofathena.com
 * http://findyourip.cf
 

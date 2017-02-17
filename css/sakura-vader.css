@@ -1,5 +1,5 @@
 /* $color-text: #dedce5; */
-/* Sakura.css v0.6.0
+/* Sakura.css v0.6.1
  * ================
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura
@@ -120,23 +120,27 @@ input, textarea {
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
   display: inline-block;
-  padding: 0 30px;
-  color: #d9d8dc;
+  padding: 0 0.5em;
+  margin-bottom: 0.5rem;
   text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: 600;
   white-space: nowrap;
+  color: #eb99a1;
   background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #d9d8dc;
+  border-radius: 0.5em;
+  border: 0.2em solid #eb99a1;
+  height: 2em;
   cursor: pointer;
   box-sizing: border-box; }
+  .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
+    cursor: default;
+    opacity: .5; }
   .button:focus, .button:hover, button:focus, button:hover, input[type="submit"]:focus, input[type="submit"]:hover, input[type="reset"]:focus, input[type="reset"]:hover, input[type="button"]:focus, input[type="button"]:hover {
-    background-color: #DA4453;
-    border-color: #eb99a1;
+    background-color: transparent;
+    border-color: #DA4453;
+    color: #DA4453;
     outline: 0; }
 
 textarea, select, input[type] {

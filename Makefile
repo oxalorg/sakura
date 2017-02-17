@@ -6,3 +6,6 @@ all:
 	sass --scss scss/sakura-dark.scss > css/sakura-dark.css
 	sass --scss scss/sakura-earthly.scss > css/sakura-earthly.css
 	sass --scss scss/sakura-vader.scss > css/sakura-vader.css
+
+watch:
+	sass --scss --watch scss:css

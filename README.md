@@ -6,6 +6,12 @@ Just drop in `sakura.css` to any webpage and go from
 ugly looking 1900's website to a pretty modern website
 in literally 0 seconds.
 
+Sakura supports extremely easy theming support using
+variables for duotone color scheming.
+
+Comes with several existing themes, can be found in the
+`css` folder of this repository.
+
 ## Installation
 
 1. Download the file:
@@ -24,6 +30,12 @@ in literally 0 seconds.
 **(Optional)** *but recommended*, use
 [normalize.css](https://github.com/necolas/normalize.css/)
 to reset before using sakura.
+
+## Demo
+
+Compare a live page **WITH** and **WITHOUT** sakura.
+
+* https://oxal.org/projects/sakura/
 
 ## Sites using Sakura
 

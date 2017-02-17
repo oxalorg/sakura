@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: serif;
   font-size: 18px;
 }
 body {
@@ -10,7 +10,8 @@ body {
   background-color: #222222;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: serif;
+  line-height: 1.41;
+  font-family: sans-serif;
   margin-bottom: 14.4px;
   margin-top: 39.6px;
   font-weight: 500;

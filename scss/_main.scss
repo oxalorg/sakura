@@ -6,35 +6,61 @@
 /* Body */
 
 html {
+    font-size: 62.5%; // So that root size becomes 10px
     font-family: serif;
-    font-size: $font-size-base;
 }
 
 body {
+    // $font-size-base must be a rem value
+    font-size: $font-size-base;
     line-height: 1.618;
-    max-width: $font-size-base * 38;
+    max-width: 38em;
     margin: auto;
     color: $color-text;
     background-color: $color-bg;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.41;
-    font-family: sans-serif;
-    margin-bottom: $font-size-base * 0.8;
-    margin-top: $font-size-base * 2.2;
-    font-weight: 500;
+@media (max-width: 684px) {
+    body {
+        font-size: $font-size-base * 0.85;
+    }
 }
 
-h1 { font-size: $font-size-base * 2.5 }
-h2 { font-size: $font-size-base * 2.15 }
-h3 { font-size: $font-size-base * 1.75 }
-h4 { font-size: $font-size-base * 1.5 }
-h5 { font-size: $font-size-base * 1.25 }
-h6 { font-size: $font-size-base * 1 }
+@media (max-width: 382px) {
+    body {
+        font-size: $font-size-base * 0.75;
+    }
+}
+
+@mixin word-wrap() {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.15;
+    margin-bottom: 0em;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.9px;
+    @include word-wrap;
+}
+
+h1 { font-size: 2.35em }
+h2 { font-size: 2.00em }
+h3 { font-size: 1.75em }
+h4 { font-size: 1.5em }
+h5 { font-size: 1.25em }
+h6 { font-size: 1em }
 
 small, sub, sup {
-    font-size: 65%;
+    font-size: 75%;
 }
 
 hr {
@@ -62,6 +88,7 @@ li {
 
 blockquote {
     font-style: italic;
+    margin-left: 1.5em;
     padding-left: 1em;
     border-left: 3px solid $color-jedi;
 }
@@ -80,7 +107,7 @@ pre {
 }
 
 code {
-    font-size: 90%;
+    font-size: 0.9em;
     padding: 0 0.5em;
     background-color: $color-bg-alt;
     white-space: pre-wrap;
@@ -101,7 +128,7 @@ table {
 }
 
 td, th {
-    padding: 8px;
+    padding: 0.5em;
     border-bottom: 1px solid $color-bg-alt;
 }
 

@@ -1,4 +1,4 @@
-/* Sakura.css v0.6.1
+/* Sakura.css v0.6.2
  * ================
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura
@@ -23,11 +23,9 @@ body {
   body {
     font-size: 1.35rem; } }
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.15;
-  margin-bottom: 0em;
-  font-family: sans-serif;
-  font-weight: 500;
-  letter-spacing: -0.9px;
+  line-height: 1.1;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 700;
   overflow-wrap: break-word;
   word-wrap: break-word;
   -ms-word-break: break-all;

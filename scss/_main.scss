@@ -45,11 +45,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    line-height: 1.15;
-    margin-bottom: 0em;
-    font-family: sans-serif;
-    font-weight: 500;
-    letter-spacing: -0.9px;
+    line-height: 1.1;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700;
     @include word-wrap;
 }
 

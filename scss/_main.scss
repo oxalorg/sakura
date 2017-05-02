@@ -103,7 +103,7 @@ pre {
     background-color: $color-bg-alt;
     display: block;
     padding: 1em;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 code {
@@ -140,6 +140,10 @@ input, textarea {
     &:focus {
         border: 1px solid $color-blossom;
     }
+}
+
+textarea {
+    width: 100%;
 }
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {

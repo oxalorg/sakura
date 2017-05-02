@@ -1,4 +1,4 @@
-/* Sakura.css v0.6.2
+/* Sakura.css v1.0.0
  * ================
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura
@@ -14,7 +14,8 @@ body {
   max-width: 38em;
   margin: auto;
   color: #4a4a4a;
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  padding: 13px; }
 
 @media (max-width: 684px) {
   body {
@@ -86,7 +87,7 @@ pre {
   background-color: #C7E3BE;
   display: block;
   padding: 1em;
-  overflow-x: scroll; }
+  overflow-x: auto; }
 
 code {
   font-size: 0.9em;
@@ -115,29 +116,28 @@ input, textarea {
   input:focus, textarea:focus {
     border: 1px solid #338618; }
 
+textarea {
+  width: 100%; }
+
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
   display: inline-block;
-  padding: 0 0.5em;
-  margin-bottom: 0.5rem;
+  padding: 5px 10px;
   text-align: center;
-  text-transform: uppercase;
   text-decoration: none;
-  font-weight: 600;
   white-space: nowrap;
-  color: #338618;
-  background-color: transparent;
-  border-radius: 0.5em;
-  border: 0.2em solid #338618;
-  height: 2em;
+  background-color: #338618;
+  color: #f9f9f9;
+  border-radius: 1px;
+  border: 1px solid #338618;
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
     cursor: default;
     opacity: .5; }
   .button:focus, .button:hover, button:focus, button:hover, input[type="submit"]:focus, input[type="submit"]:hover, input[type="reset"]:focus, input[type="reset"]:hover, input[type="button"]:focus, input[type="button"]:hover {
-    background-color: transparent;
+    background-color: #5e5e5e;
     border-color: #5e5e5e;
-    color: #5e5e5e;
+    color: #f9f9f9;
     outline: 0; }
 
 textarea, select, input[type] {

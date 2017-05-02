@@ -143,19 +143,15 @@ input, textarea {
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
     display: inline-block;
-    padding: 0 0.5em;
-    margin-bottom: 0.5rem;
+    padding: 5px 10px;
     text-align: center;
-    text-transform: uppercase;
     text-decoration: none;
-    font-weight: 600;
     white-space: nowrap;
 
-    color: $color-blossom;
-    background-color: transparent;
-    border-radius: 0.5em;
-    border: 0.2em solid $color-blossom;
-    height: 2em;
+    background-color: $color-blossom;
+    color: $color-bg;
+    border-radius: 1px;
+    border: 1px solid $color-blossom;
     cursor: pointer;
     box-sizing: border-box;
 
@@ -165,9 +161,9 @@ input, textarea {
     }
 
     &:focus, &:hover {
-        background-color: transparent;
+        background-color: $color-fade;
         border-color: $color-fade;
-        color: $color-fade;
+        color: $color-bg;
         outline: 0;
     }
 }

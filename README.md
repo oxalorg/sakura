@@ -1,8 +1,8 @@
-![The cherry blossoms](sakura.jpg)
-
 # [sakura](https://oxal.org/projects/sakura): a minimal ***classless*** css *framework* / **theme**.
 
 [Go to [Github repository](https://github.com/oxalorg/sakura)]
+
+![The cherry blossoms](sakura160.jpg)
 
 Just drop in `sakura.css` to any webpage and go from
 ugly looking 1900's website to a pretty modern website

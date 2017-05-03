@@ -1,0 +1,28 @@
+{
+  "name": "sakura.css",
+  "version": "1.0.0",
+  "description": "A minimal classless css theme. Just drop it in and watch the website blossom!",
+  "main": "css/sakura.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxalorg/sakura.git"
+  },
+  "keywords": [
+    "css",
+    "theme",
+    "classless",
+    "web-design",
+    "minimal",
+    "default",
+    "reset"
+  ],
+  "author": "Mitesh Shah <mitesh@oxal.org> (https://oxal.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oxalorg/sakura/issues"
+  },
+  "homepage": "https://oxal.org/projects/sakura/"
+}

@@ -43,6 +43,8 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 
 ## Installation
 
+**Manually** (*recommended*):
+
 1. Download the file:
 
     ```
@@ -55,18 +57,26 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 2. Link it from html:
 
     ```
-    <link rel="stylesheet" href="sakura.css">
+    <link rel="stylesheet" href="sakura.css" type="text/css">
     ```
 
-**(Optional)** *but recommended*, use
+**CDN**:
+
+1. Simply add this in your `<head>` tag.
+
+    ```
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+    ```
+
+**(Optional)** *but recommended* to use
 [normalize.css](https://github.com/necolas/normalize.css/)
-to reset before using sakura.
+to reset *before* using sakura.
 
 ## Sites using Sakura
 
-* http://computableverse.com
-* http://owlofathena.com
-* http://findyourip.cf
+* [http://computableverse.com](http://computableverse.com)
+* [http://owlofathena.com](http://owlofathena.com)
+* [http://findyourip.cf](http://findyourip.cf)
 
 ***If you're using sakura, please let me know or make a pull
 request adding in your name. I would be super happy!! `^_^`***

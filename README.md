@@ -4,21 +4,42 @@
 
 ![The cherry blossoms](sakura160.jpg)
 
+> The perfect blossom is a rare thing. You could spend your life looking for one, and it would not be a wasted life
+
 Just drop in `sakura.css` to any webpage and go from
 ugly looking 1900's website to a pretty modern website
 in literally 0 seconds.
 
-Sakura supports extremely easy theming support using
-variables for duotone color scheming.
+Easy to customize and build on top of sakura.
 
-Comes with several existing themes, can be found in the
-`css` folder of this repository.
+Sakura supports extremely easy theming support using
+variables for duotone color scheming. Comes with several
+existing themes, can be found in the `css` folder of this
+repository.
 
 ## Demo
 
 Compare a live page **WITH** and **WITHOUT** sakura.
 
 * https://oxal.org/projects/sakura/demo
+
+## Why? - Reasons to use sakura
+
+How exactly does sakura help you? I had a discussion about this on
+the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_minimal_classless_css_theme_just_drop_it/)
+
+- Just drop in, even on existing HTML content, to get a pretty
+  looking website (everything *"just works"*)
+- Quick prototyping, especially when working on backend sites
+  and can't yet be bothered to fidget with css/html
+- Building a quick (but pretty) site/blog for your best friend or aunt!
+- No need to remember tons of different class names for every
+  other css framework
+- Works amazingly with markdown generated HTML pages (eliminates
+  the need of hacks like including `.img img-responsive` in
+  markdown-parser generated `<img></img>` tags
+- Wonderful for people not really good or interested with
+  design as sakura is nothing but a set of reasonable defaults
 
 ## Installation
 
@@ -78,6 +99,15 @@ $font-size-base: 1.8rem;
 @import "main";
 ```
 
+## Contributors
+
+* The image is credited to
+[Deedster](https://pixabay.com/en/users/Deedster-2541644/)
+
 ## Share some <3
 
+> Between our two lives there is also the life of the cherry blossom
+> - *Basho Matsuo*
+
 Please leave a star :)
+

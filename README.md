@@ -57,7 +57,7 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 
 1. Download the file:
 
-    ```
+    ```bash
     wget "https://raw.githubusercontent.com/oxalorg/sakura/master/css/sakura.css"
     ```
 
@@ -66,7 +66,7 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 
 2. Link it from html:
 
-    ```
+    ```html
     <link rel="stylesheet" href="sakura.css" type="text/css">
     ```
 
@@ -74,7 +74,7 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 
 1. Simply add this in your `<head>` tag.
 
-    ```
+    ```html
     <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
     ```
 
@@ -98,7 +98,7 @@ colors.
 
 Here is an example file: `./scss/sakura-earthly.scss`:
 
-```
+```scss
 /* Duotone color scheming:
    Uses blossom as the revealing/stark color
    Uses fade as the more prominent color

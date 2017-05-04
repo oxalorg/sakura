@@ -12,4 +12,7 @@
 
 ## Scripts
 
-* `npm run build` - minify js source files and output them in `dist/`
+* `npm run bookmarklet` - minify bookmarklet source code and prepare it to embedded as a bookmark
+* `npm run scss` - generate css files from scss source files
+* `npm run scss:watch` - watch for changes in scss source files and generate css files accordingly
+* `npm run build` - generate js and css files

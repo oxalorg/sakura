@@ -4,8 +4,7 @@
   "description": "A minimal classless css theme. Just drop it in and watch the website blossom!",
   "main": "css/sakura.css",
   "scripts": {
-    "build": "mkdir -p dist && bookmarklet ./src/bookmarklet.js ./dist/bookmarklet.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "mkdir -p dist && bookmarklet ./src/bookmarklet.js ./dist/bookmarklet.js"
   },
   "files": [
     "css",

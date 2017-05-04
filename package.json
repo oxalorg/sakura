@@ -7,6 +7,11 @@
     "build": "mkdir -p dist && bookmarklet ./src/bookmarklet.js ./dist/bookmarklet.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "css",
+    "scss",
+    "package.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oxalorg/sakura.git"

@@ -21,7 +21,17 @@ repository.
 
 Compare a live page **WITH** and **WITHOUT** sakura.
 
-* https://oxal.org/projects/sakura/demo
+* [https://oxal.org/projects/sakura/demo](https://oxal.org/projects/sakura/demo)
+
+## Bookmark
+
+Don't want to develop using sakura, but instead want to use it
+on websites with outdated 90's design (i.e. no css)?
+
+If so, enable sakura on any website using the following
+instructions:
+
+* [https://oxal.org/projects/sakura/bookmark](https://oxal.org/projects/sakura/bookmark)
 
 ## Why? - Reasons to use sakura
 
@@ -111,13 +121,14 @@ $font-size-base: 1.8rem;
 
 ## Contributors
 
+* Bookmarklet was added by @Zhouzi
 * The image is credited to
 [Deedster](https://pixabay.com/en/users/Deedster-2541644/)
 
 ## Share some <3
 
-> Between our two lives there is also the life of the cherry blossom
-> - *Basho Matsuo*
+> Between our two lives there is also the life of the cherry
+> blossom. - *Basho Matsuo*
 
 Please leave a star :)
 

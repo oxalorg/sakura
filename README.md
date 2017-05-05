@@ -119,9 +119,13 @@ $font-size-base: 1.8rem;
 @import "main";
 ```
 
+## Contributing
+
+Please have a look at the [instructions](CONTRIBUTING.md).
+
 ## Contributors
 
-* Bookmarklet was added by [@Zhouzi](https://www.github.com/Zhouzi)
+* Bookmarklet was added by [Zhouzi](https://github.com/Zhouzi)
 * The image is credited to
 [Deedster](https://pixabay.com/en/users/Deedster-2541644/)
 

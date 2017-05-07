@@ -92,6 +92,7 @@ to reset *before* using sakura.
 * [http://computableverse.com](http://computableverse.com)
 * [http://owlofathena.com](http://owlofathena.com)
 * [http://findyourip.cf](http://findyourip.cf)
+* [https://higher.team](https://higher.team)
 
 ***If you're using sakura, please let me know or make a pull
 request adding in your name. I would be super happy!! `^_^`***

@@ -59,11 +59,11 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #93a1a1; }
+  border-color: #2aa198; }
 
 a {
   text-decoration: none;
-  color: #93a1a1; }
+  color: #2aa198; }
   a:hover {
     color: #657b83;
     border-bottom: 2px solid #839496; }
@@ -78,7 +78,7 @@ blockquote {
   font-style: italic;
   margin-left: 1.5em;
   padding-left: 1em;
-  border-left: 3px solid #93a1a1; }
+  border-left: 3px solid #2aa198; }
 
 img {
   max-width: 100%; }
@@ -115,7 +115,7 @@ td, th {
 input, textarea {
   border: 1px solid #839496; }
   input:focus, textarea:focus {
-    border: 1px solid #93a1a1; }
+    border: 1px solid #2aa198; }
 
 textarea {
   width: 100%; }
@@ -126,10 +126,10 @@ textarea {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #93a1a1;
+  background-color: #2aa198;
   color: #002b36;
   border-radius: 1px;
-  border: 1px solid #93a1a1;
+  border: 1px solid #2aa198;
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
@@ -152,7 +152,7 @@ textarea, select, input[type] {
   box-shadow: none;
   box-sizing: border-box; }
   textarea:focus, select:focus, input[type]:focus {
-    border: 1px solid #93a1a1;
+    border: 1px solid #2aa198;
     outline: 0; }
 
 label, legend, fieldset {

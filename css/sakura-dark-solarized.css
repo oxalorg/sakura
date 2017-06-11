@@ -21,9 +21,11 @@ body {
 @media (max-width: 684px) {
   body {
     font-size: 1.53rem; } }
+
 @media (max-width: 382px) {
   body {
     font-size: 1.35rem; } }
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   font-family: Verdana, Geneva, sans-serif;
@@ -41,7 +43,7 @@ h1 {
   font-size: 2.35em; }
 
 h2 {
-  font-size: 2em; }
+  font-size: 2.00em; }
 
 h3 {
   font-size: 1.75em; }
@@ -154,6 +156,9 @@ textarea, select, input[type] {
   textarea:focus, select:focus, input[type]:focus {
     border: 1px solid #2aa198;
     outline: 0; }
+
+input[type="checkbox"]:focus {
+  outline: 1px dotted #2aa198; }
 
 label, legend, fieldset {
   display: block;

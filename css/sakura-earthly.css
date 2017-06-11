@@ -156,6 +156,9 @@ textarea, select, input[type] {
     border: 1px solid #338618;
     outline: 0; }
 
+input[type="checkbox"]:focus {
+  outline: 1px dotted #338618; }
+
 label, legend, fieldset {
   display: block;
   margin-bottom: .5rem;

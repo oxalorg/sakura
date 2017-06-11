@@ -189,6 +189,10 @@ textarea, select, input[type] {
     }
 }
 
+input[type="checkbox"]:focus {
+    outline: 1px dotted $color-blossom;
+}
+
 label, legend, fieldset {
     display: block;
     margin-bottom: .5rem;

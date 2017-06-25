@@ -157,6 +157,9 @@ textarea, select, input[type] {
     border: 1px solid #ffffff;
     outline: 0; }
 
+input[type="checkbox"], input[type="radio"] {
+  padding: 0px; }
+
 input[type="checkbox"]:focus {
   outline: 1px dotted #ffffff; }
 

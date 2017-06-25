@@ -189,6 +189,10 @@ textarea, select, input[type] {
     }
 }
 
+input[type="checkbox"], input[type="radio"] {
+    padding: 0px;
+}
+
 input[type="checkbox"]:focus {
     outline: 1px dotted $color-blossom;
 }

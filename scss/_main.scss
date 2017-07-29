@@ -8,7 +8,7 @@
 
 html {
     font-size: 62.5%; // So that root size becomes 10px
-    font-family: serif;
+    font-family: $font-family-serif;
 }
 
 body {
@@ -47,7 +47,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: $font-family-sans-serif;
     font-weight: 700;
     @include word-wrap;
 }

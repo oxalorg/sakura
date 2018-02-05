@@ -182,7 +182,8 @@ textarea, select, input[type] {
     border-radius: 4px;
     box-shadow: none;
     box-sizing: border-box;
-
+    -webkit-appearance: none;
+    
     &:focus {
         border: 1px solid $color-blossom;
         outline: 0;

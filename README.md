@@ -83,6 +83,20 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
     <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
     ```
 
+**Package Manager**:
+
+1. Install from npm:
+    
+    ```bash
+    npm install sakura.css
+    ```
+
+2. Install from Yarn:
+    
+    ```bash
+    yarn add sakura.css
+    ```
+
 **(Optional)** *but recommended* to use
 [normalize.css](https://github.com/necolas/normalize.css/)
 to reset *before* using sakura.

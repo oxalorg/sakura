@@ -6,3 +6,5 @@ cartmansleeping.png
 .sass_cache/
 node_modules/
 dist/
+
+.idea/

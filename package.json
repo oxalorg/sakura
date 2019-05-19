@@ -7,7 +7,9 @@
     "bookmarklet": "mkdir -p dist && bookmarklet ./src/bookmarklet.js ./dist/bookmarklet.js",
     "scss": "node-sass scss -o css",
     "scss:watch": "node-sass scss -o css -w",
-    "build": "npm run bookmarklet"
+    "min": "./min.sh",
+    "build": "npm run bookmarklet",
+    "postbuild": "npm run scss && npm run min"
   },
   "files": [
     "css",
@@ -35,6 +37,7 @@
   "homepage": "https://oxal.org/projects/sakura/",
   "devDependencies": {
     "bookmarklet": "0.0.6",
+    "clean-css-cli": "^4.3.0",
     "node-sass": "^4.5.2"
   }
 }

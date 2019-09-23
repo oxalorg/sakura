@@ -112,6 +112,7 @@ to reset *before* using sakura.
 * [https://securityunderflow.com/](https://securityunderflow.com/)
 * [https://alinepegas.com.br/](https://alinepegas.com.br/)
 * [https://minweb.surge.sh/](https://minweb.surge.sh/)
+* [https://chocopy.org](https://chocopy.org)
 
 ***If you're using sakura, please let me know or make a pull
 request adding in your name. I would be super happy!! `^_^`***

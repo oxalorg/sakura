@@ -106,11 +106,7 @@ to reset *before* using sakura.
 * [https://www.taazakitchen.com/](https://www.taazakitchen.com)
 * [http://computableverse.com](http://computableverse.com)
 * [http://owlofathena.com](http://owlofathena.com)
-* [https://higher.team](https://higher.team)
 * [https://audioviz.surge.sh/vex.html](https://audioviz.surge.sh/vex.html)
-* [https://securityunderflow.com/](https://securityunderflow.com/)
-* [https://alinepegas.com.br/](https://alinepegas.com.br/)
-* [https://minweb.surge.sh/](https://minweb.surge.sh/)
 * [https://chocopy.org](https://chocopy.org)
 
 ***If you're using sakura, please let me know or make a pull

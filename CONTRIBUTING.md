@@ -7,7 +7,10 @@
 1. Fork the repository
 2. Clone the forked repository `git clone https://github.com/<user>/sakura.git`
 3. Install dependencies `npm install`
-4. Make your changes
+4. Run `npm run scss:watch` and `npm run test`
+5. Make your changes -> Check them out at localhost:8080/test.html
+6. Make sure to test on Chrome and Firefox both
+7. Before commiting make sure you run `npm run build` and commit all css files as well
 5. Submit a PR with a description of your changes
 
 ## Scripts
@@ -16,3 +19,4 @@
 * `npm run scss` - generate css files from scss source files
 * `npm run scss:watch` - watch for changes in scss source files and generate css files accordingly
 * `npm run build` - generate js and css files
+* `npm run test` - run a server to load test.html file in browser

@@ -7,7 +7,8 @@
     "bookmarklet": "mkdir -p dist && bookmarklet ./src/bookmarklet.js ./dist/bookmarklet.js",
     "scss": "node-sass scss -o css",
     "scss:watch": "node-sass scss -o css -w",
-    "build": "npm run bookmarklet"
+    "build": "npm run bookmarklet",
+    "test": "npx http-server"
   },
   "files": [
     "css",

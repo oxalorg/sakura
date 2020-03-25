@@ -83,6 +83,7 @@ blockquote {
   border-left: 3px solid #ffffff; }
 
 img {
+  height: auto;
   max-width: 100%; }
 
 /* Pre and Code */

@@ -94,6 +94,7 @@ blockquote {
 }
 
 img {
+    height: auto;
     max-width: 100%;
 }
 
@@ -196,6 +197,6 @@ input[type="checkbox"]:focus {
 label, legend, fieldset {
     display: block;
     margin-bottom: .5rem;
-    font-weight: 600; 
+    font-weight: 600;
 }
 

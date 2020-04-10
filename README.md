@@ -110,6 +110,7 @@ to reset *before* using sakura.
 * [https://audioviz.surge.sh/vex.html](https://audioviz.surge.sh/vex.html)
 * [https://chocopy.org](https://chocopy.org)
 * [https://wasmbyexample.dev/](https://wasmbyexample.dev/)
+* [https://ninjas.cl/](https://ninjas.cl/)
 
 ***If you're using sakura, please let me know or make a pull
 request adding in your name. I would be super happy!! `^_^`***

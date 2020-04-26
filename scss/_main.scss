@@ -8,7 +8,7 @@
 
 html {
     font-size: 62.5%; // So that root size becomes 10px
-    font-family: $font-family-serif;
+    font-family: $font-family-base;
 }
 
 body {
@@ -47,7 +47,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-heading;
     font-weight: 700;
     @include word-wrap;
 }
@@ -199,4 +199,3 @@ label, legend, fieldset {
     margin-bottom: .5rem;
     font-weight: 600;
 }
-

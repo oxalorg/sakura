@@ -7,7 +7,7 @@
 /* Body */
 html {
   font-size: 62.5%;
-  font-family: serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; }
 
 body {
   font-size: 1.8rem;
@@ -28,7 +28,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   font-weight: 700;
   overflow-wrap: break-word;
   word-wrap: break-word;

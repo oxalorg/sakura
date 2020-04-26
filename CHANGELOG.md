@@ -1,4 +1,4 @@
-## 1.2.0 (unreleased)
+## 1.2.0 (2020-04-26)
 
 * Updated default fonts
     - The new fonts are defaults for every system, they look more consistent and modern.

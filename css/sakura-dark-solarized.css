@@ -30,6 +30,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
   -ms-word-break: break-all;
@@ -57,6 +59,10 @@ h5 {
 h6 {
   font-size: 1em; }
 
+p {
+  margin-top: 0px;
+  margin-bottom: 2.5rem; }
+
 small, sub, sup {
   font-size: 75%; }
 
@@ -71,7 +77,9 @@ a {
     border-bottom: 2px solid #839496; }
 
 ul {
-  padding-left: 1.4em; }
+  padding-left: 1.4em;
+  margin-top: 0px;
+  margin-bottom: 2.5rem; }
 
 li {
   margin-bottom: 0.4em; }
@@ -84,14 +92,18 @@ blockquote {
 
 img {
   height: auto;
-  max-width: 100%; }
+  max-width: 100%;
+  margin-top: 0px;
+  margin-bottom: 2.5rem; }
 
 /* Pre and Code */
 pre {
   background-color: #073642;
   display: block;
   padding: 1em;
-  overflow-x: auto; }
+  overflow-x: auto;
+  margin-top: 0px;
+  margin-bottom: 2.5rem; }
 
 code {
   font-size: 0.9em;

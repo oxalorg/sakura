@@ -49,6 +49,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     font-family: $font-family-heading;
     font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
     @include word-wrap;
 }
 
@@ -58,6 +60,11 @@ h3 { font-size: 1.75em }
 h4 { font-size: 1.5em }
 h5 { font-size: 1.25em }
 h6 { font-size: 1em }
+
+p {
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
+}
 
 small, sub, sup {
     font-size: 75%;
@@ -80,6 +87,8 @@ a {
 
 ul {
     padding-left: 1.4em;
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
 }
 
 li {
@@ -96,6 +105,8 @@ blockquote {
 img {
     height: auto;
     max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
 }
 
 /* Pre and Code */
@@ -105,6 +116,8 @@ pre {
     display: block;
     padding: 1em;
     overflow-x: auto;
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
 }
 
 code {

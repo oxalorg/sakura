@@ -112,6 +112,7 @@ to reset *before* using sakura.
 * [https://wasmbyexample.dev/](https://wasmbyexample.dev/)
 * [https://ninjas.cl/](https://ninjas.cl/)
 * [https://minidown.atusy.net](https://minidown.atusy.net)
+* [https://random-hn-blog.herokuapp.com/](https://random-hn-blog.herokuapp.com/)
 
 ***If you're using sakura, please let me know or make a pull
 request adding in your name. I would be super happy!! `^_^`***

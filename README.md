@@ -28,6 +28,10 @@ Compare a live page **WITH** and **WITHOUT** sakura.
 
 * [https://oxal.org/projects/sakura/demo](https://oxal.org/projects/sakura/demo)
 
+Also my blog is a nice place to check sakura in action with heavy text (it has a change theme button on the top as well):
+
+* [oxal.org/blog](https://oxal.org/blog/)
+
 ## Bookmark
 
 Don't want to develop using sakura, but instead want to use it
@@ -86,13 +90,13 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 **Package Manager**:
 
 1. Install from npm:
-    
+
     ```bash
     npm install sakura.css
     ```
 
 2. Install from Yarn:
-    
+
     ```bash
     yarn add sakura.css
     ```
@@ -160,4 +164,3 @@ Please have a look at the [instructions](CONTRIBUTING.md).
 > blossom. - *Basho Matsuo*
 
 Please leave a star :)
-

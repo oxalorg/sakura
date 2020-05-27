@@ -1,3 +1,8 @@
+## 1.3.0 (2020-05-27)
+
+* Improved spacing - more room to breathe
+* Added a new theme: sakura-ink
+
 ## 1.2.0 (2020-04-26)
 
 * Updated default fonts

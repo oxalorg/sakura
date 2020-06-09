@@ -179,7 +179,7 @@ textarea {
         opacity: .5;
     }
 
-    &:focus, &:hover {
+    &:focus:enabled, &:hover:enabled {
         background-color: $color-fade;
         border-color: $color-fade;
         color: $color-bg;

@@ -84,10 +84,18 @@ li {
   margin-bottom: 0.4em; }
 
 blockquote {
-  font-style: italic;
-  margin-left: 1.5em;
+  margin-left: 0px;
+  margin-right: 0px;
   padding-left: 1em;
-  border-left: 3px solid #3b22ea; }
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-right: 0.8em;
+  border-left: 5px solid #3b22ea;
+  margin-bottom: 2.5rem;
+  background-color: #f7f7f7; }
+
+blockquote p {
+  margin-bottom: 0; }
 
 img {
   height: auto;
@@ -97,7 +105,7 @@ img {
 
 /* Pre and Code */
 pre {
-  background-color: #e3e3e3;
+  background-color: #f7f7f7;
   display: block;
   padding: 1em;
   overflow-x: auto;
@@ -107,7 +115,7 @@ pre {
 code {
   font-size: 0.9em;
   padding: 0 0.5em;
-  background-color: #e3e3e3;
+  background-color: #f7f7f7;
   white-space: pre-wrap; }
 
 pre > code {
@@ -123,7 +131,7 @@ table {
 
 td, th {
   padding: 0.5em;
-  border-bottom: 1px solid #e3e3e3; }
+  border-bottom: 1px solid #f7f7f7; }
 
 /* Buttons, forms and input */
 input, textarea {
@@ -160,8 +168,8 @@ textarea, select, input[type] {
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
-  background-color: #e3e3e3;
-  border: 1px solid #e3e3e3;
+  background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }

@@ -96,10 +96,19 @@ li {
 }
 
 blockquote {
-    font-style: italic;
-    margin-left: 1.5em;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-left: 1em;
-    border-left: 3px solid $color-blossom;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-right: 0.8em;
+    border-left: 5px solid $color-blossom;
+    margin-bottom: 2.5rem;
+    background-color: $color-bg-alt;
+}
+
+blockquote p {
+    margin-bottom: 0;
 }
 
 img {

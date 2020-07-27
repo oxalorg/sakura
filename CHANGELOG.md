@@ -1,3 +1,8 @@
+## 1.3.1 (2020-07-27)
+
+* Improved blockquote design
+* Changed earthly theme
+
 ## 1.3.0 (2020-05-27)
 
 * Improved spacing - more room to breathe

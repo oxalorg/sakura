@@ -1,5 +1,5 @@
 /* $color-text: #dedce5; */
-/* Sakura.css v1.3.0
+/* Sakura.css v1.3.1
  * ================
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura/
@@ -85,10 +85,18 @@ li {
   margin-bottom: 0.4em; }
 
 blockquote {
-  font-style: italic;
-  margin-left: 1.5em;
+  margin-left: 0px;
+  margin-right: 0px;
   padding-left: 1em;
-  border-left: 3px solid #eb99a1; }
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-right: 0.8em;
+  border-left: 5px solid #eb99a1;
+  margin-bottom: 2.5rem;
+  background-color: #40363a; }
+
+blockquote p {
+  margin-bottom: 0; }
 
 img {
   height: auto;

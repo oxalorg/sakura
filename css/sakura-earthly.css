@@ -1,4 +1,4 @@
-/* Sakura.css v1.3.0
+/* Sakura.css v1.3.1
  * ================
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura/
@@ -13,8 +13,8 @@ body {
   line-height: 1.618;
   max-width: 38em;
   margin: auto;
-  color: #4a4a4a;
-  background-color: #f9f9f9;
+  color: #222222;
+  background-color: #ffffff;
   padding: 13px; }
 
 @media (max-width: 684px) {
@@ -66,14 +66,14 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #338618; }
+  border-color: #008b6a; }
 
 a {
   text-decoration: none;
-  color: #338618; }
+  color: #008b6a; }
   a:hover {
-    color: #5e5e5e;
-    border-bottom: 2px solid #4a4a4a; }
+    color: #4ed0eb;
+    border-bottom: 2px solid #222222; }
 
 ul {
   padding-left: 1.4em;
@@ -84,10 +84,18 @@ li {
   margin-bottom: 0.4em; }
 
 blockquote {
-  font-style: italic;
-  margin-left: 1.5em;
+  margin-left: 0px;
+  margin-right: 0px;
   padding-left: 1em;
-  border-left: 3px solid #338618; }
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-right: 0.8em;
+  border-left: 5px solid #008b6a;
+  margin-bottom: 2.5rem;
+  background-color: #f7f7f7; }
+
+blockquote p {
+  margin-bottom: 0; }
 
 img {
   height: auto;
@@ -97,7 +105,7 @@ img {
 
 /* Pre and Code */
 pre {
-  background-color: #C7E3BE;
+  background-color: #f7f7f7;
   display: block;
   padding: 1em;
   overflow-x: auto;
@@ -107,7 +115,7 @@ pre {
 code {
   font-size: 0.9em;
   padding: 0 0.5em;
-  background-color: #C7E3BE;
+  background-color: #f7f7f7;
   white-space: pre-wrap; }
 
 pre > code {
@@ -123,13 +131,13 @@ table {
 
 td, th {
   padding: 0.5em;
-  border-bottom: 1px solid #C7E3BE; }
+  border-bottom: 1px solid #f7f7f7; }
 
 /* Buttons, forms and input */
 input, textarea {
-  border: 1px solid #4a4a4a; }
+  border: 1px solid #222222; }
   input:focus, textarea:focus {
-    border: 1px solid #338618; }
+    border: 1px solid #008b6a; }
 
 textarea {
   width: 100%; }
@@ -140,37 +148,38 @@ textarea {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #338618;
-  color: #f9f9f9;
+  background-color: #008b6a;
+  color: #ffffff;
   border-radius: 1px;
-  border: 1px solid #338618;
+  border: 1px solid #008b6a;
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
     cursor: default;
     opacity: .5; }
   .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
-    background-color: #5e5e5e;
-    border-color: #5e5e5e;
-    color: #f9f9f9;
+    background-color: #4ed0eb;
+    border-color: #4ed0eb;
+    color: #ffffff;
     outline: 0; }
 
+
 textarea, select, input {
-  color: #4a4a4a;
+  color: #222222;
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
-  background-color: #C7E3BE;
-  border: 1px solid #C7E3BE;
+  background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
   textarea:focus, select:focus, input:focus {
-    border: 1px solid #338618;
+    border: 1px solid #008b6a;
     outline: 0; }
 
 input[type="checkbox"]:focus {
-  outline: 1px dotted #338618; }
+  outline: 1px dotted #008b6a; }
 
 label, legend, fieldset {
   display: block;

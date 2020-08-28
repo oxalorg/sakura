@@ -3,6 +3,51 @@
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura/
  */
+
+:root {
+  /* Sakura */
+  --sk-bg: #f9f9f9;
+  --sk-br: #f1f1f1;
+  --sk-tx: #4a4a4a;
+  --sk-lk: #2c8898;
+  --sk-ac: #982c61;
+
+  /* dark */ 
+  --sk-d-bg: #222222;
+  --sk-d-br: #ffffff;
+  --sk-d-tx: #c9c9c9;
+  --sk-d-lk: #c9c9c9;
+  --sk-d-ac: #4a4a4a;
+
+  /* dark-solarized */
+  --sk-ds-bg: #002b36;
+  --sk-ds-br: #2aa198; 
+  --sk-ds-tx: #839496;
+  --sk-ds-lk: #073642;
+  --sk-ds-ac: #657b83;
+
+  /* earthly */
+  --sk-e-bg: #ffffff;
+  --sk-e-br: #008b6a;
+  --sk-e-tx: #222222;
+  --sk-e-lk: #008b6a;
+  --sk-e-ac: #4ed0eb;
+
+  /* ink */
+  --sk-i-bg: #ffffff;
+  --sk-i-br: #3b22ea;
+  --sk-i-tx: rgba(0, 0, 0, 0.85);
+  --sk-i-lk: #3b22ea;
+  --sk-i-ac: #DA4453;
+
+  /* vader */
+  --sk-v-bg-0: #f9f9f9;
+  --sk-v-bg-1: #f1f1f1;
+  --sk-v-tx: #4a4a4a;
+  --sk-v-lk: #2c8898;
+  --sk-v-ac: #982c61;
+}
+
 /* Body */
 html {
   font-size: 62.5%;
@@ -13,8 +58,8 @@ body {
   line-height: 1.618;
   max-width: 38em;
   margin: auto;
-  color: #4a4a4a;
-  background-color: #f9f9f9;
+  color: var(--sk-tx);
+  background-color: var(--sk-bg);
   padding: 13px; }
 
 @media (max-width: 684px) {
@@ -66,14 +111,14 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #2c8898; }
+  border-color: var(--sk-lk); }
 
 a {
   text-decoration: none;
-  color: #2c8898; }
+  color: var(--sk-lk); }
   a:hover {
-    color: #982c61;
-    border-bottom: 2px solid #4a4a4a; }
+    color: var(--sk-ac);
+    border-bottom: 2px solid var(--sk-tx); }
 
 ul {
   padding-left: 1.4em;
@@ -90,9 +135,9 @@ blockquote {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  border-left: 5px solid #2c8898;
+  border-left: 5px solid var(--sk-lk);
   margin-bottom: 2.5rem;
-  background-color: #f1f1f1; }
+  background-color: var(--sk-br); }
 
 blockquote p {
   margin-bottom: 0; }
@@ -105,7 +150,7 @@ img {
 
 /* Pre and Code */
 pre {
-  background-color: #f1f1f1;
+  background-color: var(--sk-br);
   display: block;
   padding: 1em;
   overflow-x: auto;
@@ -115,7 +160,7 @@ pre {
 code {
   font-size: 0.9em;
   padding: 0 0.5em;
-  background-color: #f1f1f1;
+  background-color: var(--sk-br);
   white-space: pre-wrap; }
 
 pre > code {
@@ -131,13 +176,13 @@ table {
 
 td, th {
   padding: 0.5em;
-  border-bottom: 1px solid #f1f1f1; }
+  border-bottom: 1px solid var(--sk-br); }
 
 /* Buttons, forms and input */
 input, textarea {
-  border: 1px solid #4a4a4a; }
+  border: 1px solid var(--sk-tx); }
   input:focus, textarea:focus {
-    border: 1px solid #2c8898; }
+    border: 1px solid var(--sk-lk); }
 
 textarea {
   width: 100%; }
@@ -148,37 +193,37 @@ textarea {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #2c8898;
-  color: #f9f9f9;
+  background-color: var(--sk-lk);
+  color: var(--sk-bg);
   border-radius: 1px;
-  border: 1px solid #2c8898;
+  border: 1px solid var(--sk-lk);
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
     cursor: default;
     opacity: .5; }
   .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
-    background-color: #982c61;
-    border-color: #982c61;
-    color: #f9f9f9;
+    background-color: var(--sk-ac);
+    border-color: var(--sk-ac);
+    color: var(--sk-bg);
     outline: 0; }
 
 textarea, select, input[type] {
-  color: #4a4a4a;
+  color: var(--sk-tx);
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
-  background-color: #f1f1f1;
-  border: 1px solid #f1f1f1;
+  background-color: var(--sk-br);
+  border: 1px solid var(--sk-br);
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
   textarea:focus, select:focus, input[type]:focus {
-    border: 1px solid #2c8898;
+    border: 1px solid var(--sk-lk);
     outline: 0; }
 
 input[type="checkbox"]:focus {
-  outline: 1px dotted #2c8898; }
+  outline: 1px dotted var(--sk-lk); }
 
 label, legend, fieldset {
   display: block;

@@ -81,10 +81,10 @@ hr {
 
 a {
   text-decoration: none;
-  color: var(--sk-d-br); }
+  color: var(--sk-d-lk); }
   a:hover {
-    color: var(--sk-d-lk);
-    border-bottom: 2px solid var(--sk-d-lk); }
+    color: var(--sk-d-ac);
+    border-bottom: 2px solid var(--sk-d-tx); }
 
 ul {
   padding-left: 1.4em;

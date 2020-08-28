@@ -4,6 +4,15 @@
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura/
  */
+:root{
+  /* dark-solarized */
+  --sk-ds-bg: #002b36;
+  --sk-ds-br: #2aa198; 
+  --sk-ds-tx: #839496;
+  --sk-ds-lk: #073642;
+  --sk-ds-ac: #657b83;
+}
+
 /* Body */
 html {
   font-size: 62.5%;
@@ -14,8 +23,8 @@ body {
   line-height: 1.618;
   max-width: 38em;
   margin: auto;
-  color: #839496;
-  background-color: #002b36;
+  color: var(--sk-ds-tx);
+  background-color: var(--sk-ds-bg);
   padding: 13px; }
 
 @media (max-width: 684px) {
@@ -67,14 +76,14 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #2aa198; }
+  border-color: var(--sk-ds-br); }
 
 a {
   text-decoration: none;
-  color: #2aa198; }
+  color: var(--sk-ds-br); }
   a:hover {
-    color: #657b83;
-    border-bottom: 2px solid #839496; }
+    color: var(--sk-ds-ac);
+    border-bottom: 2px solid var(--sk-ds-tx); }
 
 ul {
   padding-left: 1.4em;
@@ -91,9 +100,9 @@ blockquote {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  border-left: 5px solid #2aa198;
+  border-left: 5px solid var(--sk-ds-br);
   margin-bottom: 2.5rem;
-  background-color: #073642; }
+  background-color: var(--sk-ds-lk); }
 
 blockquote p {
   margin-bottom: 0; }
@@ -106,17 +115,18 @@ img {
 
 /* Pre and Code */
 pre {
-  background-color: #073642;
+  background-color: var(--sk-ds-lk);
   display: block;
   padding: 1em;
   overflow-x: auto;
   margin-top: 0px;
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem; 
+}
 
 code {
   font-size: 0.9em;
   padding: 0 0.5em;
-  background-color: #073642;
+  background-color: var(--sk-ds-lk);
   white-space: pre-wrap; }
 
 pre > code {
@@ -132,13 +142,13 @@ table {
 
 td, th {
   padding: 0.5em;
-  border-bottom: 1px solid #073642; }
+  border-bottom: 1px solid var(--sk-ds-lk); }
 
 /* Buttons, forms and input */
 input, textarea {
-  border: 1px solid #839496; }
+  border: 1px solid var(--sk-ds-tx); }
   input:focus, textarea:focus {
-    border: 1px solid #2aa198; }
+    border: 1px solid var(--sk-ds-br); }
 
 textarea {
   width: 100%; }
@@ -149,37 +159,37 @@ textarea {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #2aa198;
-  color: #002b36;
+  background-color: var(--sk-ds-br);
+  color: var(--sk-ds-bg);
   border-radius: 1px;
-  border: 1px solid #2aa198;
+  border: 1px solid var(--sk-ds-br);
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
     cursor: default;
     opacity: .5; }
   .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
-    background-color: #657b83;
-    border-color: #657b83;
-    color: #002b36;
+    background-color: var(--sk-ds-ac);
+    border-color: var(--sk-ds-ac);
+    color: var(--sk-ds-bg);
     outline: 0; }
 
 textarea, select, input[type] {
-  color: #839496;
+  color: var(--sk-ds-tx);
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
-  background-color: #073642;
-  border: 1px solid #073642;
+  background-color: var(--sk-ds-lk);
+  border: 1px solid var(--sk-ds-lk);
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
   textarea:focus, select:focus, input[type]:focus {
-    border: 1px solid #2aa198;
+    border: 1px solid var(--sk-ds-br);
     outline: 0; }
 
 input[type="checkbox"]:focus {
-  outline: 1px dotted #2aa198; }
+  outline: 1px dotted var(--sk-ds-br); }
 
 label, legend, fieldset {
   display: block;

@@ -41,11 +41,11 @@
   --sk-i-ac: #DA4453;
 
   /* vader */
-  --sk-v-bg-0: #f9f9f9;
-  --sk-v-bg-1: #f1f1f1;
-  --sk-v-tx: #4a4a4a;
-  --sk-v-lk: #2c8898;
-  --sk-v-ac: #982c61;
+  --sk-v-bg: #120c0e;
+  --sk-v-br: #eb99a1;
+  --sk-v-tx: #d9d8dc;
+  --sk-v-lk: #eb99a1;;
+  --sk-v-ac: #DA4453;
 }
 
 /* Body */

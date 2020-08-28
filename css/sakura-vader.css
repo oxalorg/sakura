@@ -4,6 +4,15 @@
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura/
  */
+:root{
+  /* vader */
+  --sk-v-bg: #120c0e;
+  --sk-v-br: #eb99a1;
+  --sk-v-tx: #d9d8dc;
+  --sk-v-lk: #eb99a1;;
+  --sk-v-ac: #DA4453;
+}
+
 /* Body */
 html {
   font-size: 62.5%;
@@ -14,8 +23,8 @@ body {
   line-height: 1.618;
   max-width: 38em;
   margin: auto;
-  color: #d9d8dc;
-  background-color: #120c0e;
+  color: var(--sk-v-tx);
+  background-color: var(--sk-v-bg);
   padding: 13px; }
 
 @media (max-width: 684px) {
@@ -67,14 +76,14 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #eb99a1; }
+  border-color: var(--sk-v-br); }
 
 a {
   text-decoration: none;
-  color: #eb99a1; }
+  color: var(--sk-v-lk); }
   a:hover {
-    color: #DA4453;
-    border-bottom: 2px solid #d9d8dc; }
+    color: var(--sk-v-ac);
+    border-bottom: 2px solid var(--sk-v-tx); }
 
 ul {
   padding-left: 1.4em;
@@ -91,7 +100,7 @@ blockquote {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  border-left: 5px solid #eb99a1;
+  border-left: 5px solid var(--sk-v-br);
   margin-bottom: 2.5rem;
   background-color: #40363a; }
 
@@ -136,9 +145,9 @@ td, th {
 
 /* Buttons, forms and input */
 input, textarea {
-  border: 1px solid #d9d8dc; }
+  border: 1px solid var(--sk-v-tx); }
   input:focus, textarea:focus {
-    border: 1px solid #eb99a1; }
+    border: 1px solid var(--sk-v-br); }
 
 textarea {
   width: 100%; }
@@ -149,23 +158,23 @@ textarea {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #eb99a1;
-  color: #120c0e;
+  background-color: var(--sk-v-br);
+  color: var(--sk-v-bg);
   border-radius: 1px;
-  border: 1px solid #eb99a1;
+  border: 1px solid var(--sk-v-br);
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
     cursor: default;
     opacity: .5; }
   .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
-    background-color: #DA4453;
-    border-color: #DA4453;
-    color: #120c0e;
+    background-color: var(--sk-v-ac);
+    border-color: var(--sk-v-ac);
+    color: var(--sk-v-bg);
     outline: 0; }
 
 textarea, select, input[type] {
-  color: #d9d8dc;
+  color: var(--sk-v-tx);
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
@@ -175,11 +184,11 @@ textarea, select, input[type] {
   box-shadow: none;
   box-sizing: border-box; }
   textarea:focus, select:focus, input[type]:focus {
-    border: 1px solid #eb99a1;
+    border: 1px solid var(--sk-v-br);
     outline: 0; }
 
 input[type="checkbox"]:focus {
-  outline: 1px dotted #eb99a1; }
+  outline: 1px dotted var(--sk-v-br); }
 
 label, legend, fieldset {
   display: block;

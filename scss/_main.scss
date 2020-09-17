@@ -192,7 +192,7 @@ textarea {
     }
 }
 
-textarea, select, input[type] {
+textarea, select, input {
     color: $color-text;
     padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
     margin-bottom: 10px;

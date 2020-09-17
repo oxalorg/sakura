@@ -159,7 +159,8 @@ textarea {
     color: #ffffff;
     outline: 0; }
 
-textarea, select, input[type] {
+
+textarea, select, input {
   color: #222222;
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
@@ -169,7 +170,7 @@ textarea, select, input[type] {
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
-  textarea:focus, select:focus, input[type]:focus {
+  textarea:focus, select:focus, input:focus {
     border: 1px solid #008b6a;
     outline: 0; }
 

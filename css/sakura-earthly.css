@@ -62,13 +62,13 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #008b6a; }
+  border-color: #007559; }
 
 a {
   text-decoration: none;
-  color: #008b6a; }
+  color: #007559; }
   a:hover {
-    color: #4ed0eb;
+    color: #006994;
     border-bottom: 2px solid #222222; }
 
 ul {
@@ -86,7 +86,7 @@ blockquote {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  border-left: 5px solid #008b6a;
+  border-left: 5px solid #007559;
   margin-bottom: 2.5rem;
   background-color: #f7f7f7; }
 
@@ -133,7 +133,7 @@ td, th {
 input, textarea {
   border: 1px solid #222222; }
   input:focus, textarea:focus {
-    border: 1px solid #008b6a; }
+    border: 1px solid #007559; }
 
 textarea {
   width: 100%; }
@@ -144,18 +144,18 @@ textarea {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #008b6a;
+  background-color: #007559;
   color: #ffffff;
   border-radius: 1px;
-  border: 1px solid #008b6a;
+  border: 1px solid #007559;
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
     cursor: default;
     opacity: .5; }
   .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
-    background-color: #4ed0eb;
-    border-color: #4ed0eb;
+    background-color: #006994;
+    border-color: #006994;
     color: #ffffff;
     outline: 0; }
 
@@ -170,12 +170,12 @@ textarea, select, input {
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
-  textarea:focus, select:focus, input:focus {
-    border: 1px solid #008b6a;
+  textarea:focus, select:focus, input[type]:focus {
+    border: 1px solid #007559;
     outline: 0; }
 
 input[type="checkbox"]:focus {
-  outline: 1px dotted #008b6a; }
+  outline: 1px dotted #007559; }
 
 label, legend, fieldset {
   display: block;

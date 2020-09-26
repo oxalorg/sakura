@@ -70,6 +70,8 @@ a {
   a:hover {
     color: #006994;
     border-bottom: 2px solid #222222; }
+  a:visited {
+    color: #004232; }
 
 ul {
   padding-left: 1.4em;
@@ -159,7 +161,6 @@ textarea {
     color: #ffffff;
     outline: 0; }
 
-
 textarea, select, input {
   color: #222222;
   padding: 6px 10px;
@@ -169,8 +170,9 @@ textarea, select, input {
   border: 1px solid #f7f7f7;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box; }
-  textarea:focus, select:focus, input[type]:focus {
+  box-sizing: border-box;
+  -webkit-appearance: none; }
+  textarea:focus, select:focus, input:focus {
     border: 1px solid #007559;
     outline: 0; }
 

@@ -71,6 +71,8 @@ a {
   a:hover {
     color: #657b83;
     border-bottom: 2px solid #839496; }
+  a:visited {
+    color: #1f7972; }
 
 ul {
   padding-left: 1.4em;
@@ -169,7 +171,8 @@ textarea, select, input {
   border: 1px solid #073642;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-appearance: none; }
   textarea:focus, select:focus, input:focus {
     border: 1px solid #2aa198;
     outline: 0; }

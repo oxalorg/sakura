@@ -79,6 +79,10 @@ a {
         border-bottom: 2px solid $color-text;
     }
 
+    &:visited {
+        color: darken($color-blossom, 10%);
+    }
+
 }
 
 ul {

@@ -171,8 +171,7 @@ textarea, select, input {
   border: 1px solid #40363a;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box;
-  -webkit-appearance: none; }
+  box-sizing: border-box; }
   textarea:focus, select:focus, input:focus {
     border: 1px solid #eb99a1;
     outline: 0; }

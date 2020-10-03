@@ -34,11 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
   word-wrap: break-word;
   -ms-word-break: break-all;
-  word-break: break-word;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto; }
+  word-break: break-word; }
 
 h1 {
   font-size: 2.35em; }
@@ -74,6 +70,8 @@ a {
   a:hover {
     color: #DA4453;
     border-bottom: 2px solid rgba(0, 0, 0, 0.85); }
+  a:visited {
+    color: #2913c6; }
 
 ul {
   padding-left: 1.4em;

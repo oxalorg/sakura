@@ -34,11 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
   word-wrap: break-word;
   -ms-word-break: break-all;
-  word-break: break-word;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto; }
+  word-break: break-word; }
 
 h1 {
   font-size: 2.35em; }
@@ -66,14 +62,16 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #2c8898; }
+  border-color: #1d7484; }
 
 a {
   text-decoration: none;
-  color: #2c8898; }
+  color: #1d7484; }
   a:hover {
     color: #982c61;
     border-bottom: 2px solid #4a4a4a; }
+  a:visited {
+    color: #144f5a; }
 
 ul {
   padding-left: 1.4em;
@@ -90,7 +88,7 @@ blockquote {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  border-left: 5px solid #2c8898;
+  border-left: 5px solid #1d7484;
   margin-bottom: 2.5rem;
   background-color: #f1f1f1; }
 
@@ -137,7 +135,7 @@ td, th {
 input, textarea {
   border: 1px solid #4a4a4a; }
   input:focus, textarea:focus {
-    border: 1px solid #2c8898; }
+    border: 1px solid #1d7484; }
 
 textarea {
   width: 100%; }
@@ -148,10 +146,10 @@ textarea {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #2c8898;
+  background-color: #1d7484;
   color: #f9f9f9;
   border-radius: 1px;
-  border: 1px solid #2c8898;
+  border: 1px solid #1d7484;
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
@@ -174,11 +172,11 @@ textarea, select, input {
   box-shadow: none;
   box-sizing: border-box; }
   textarea:focus, select:focus, input:focus {
-    border: 1px solid #2c8898;
+    border: 1px solid #1d7484;
     outline: 0; }
 
 input[type="checkbox"]:focus {
-  outline: 1px dotted #2c8898; }
+  outline: 1px dotted #1d7484; }
 
 label, legend, fieldset {
   display: block;

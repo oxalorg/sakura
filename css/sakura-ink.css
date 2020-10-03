@@ -120,7 +120,8 @@ code {
 pre > code {
   padding: 0;
   background-color: transparent;
-  white-space: pre; }
+  white-space: pre;
+  font-size: 1em; }
 
 /* Tables */
 table {

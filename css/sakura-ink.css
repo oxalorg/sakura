@@ -95,7 +95,7 @@ blockquote {
 blockquote p {
   margin-bottom: 0; }
 
-img {
+img, video {
   height: auto;
   max-width: 100%;
   margin-top: 0px;

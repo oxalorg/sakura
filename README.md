@@ -117,6 +117,7 @@ to reset *before* using sakura.
 * [https://ninjas.cl/](https://ninjas.cl/)
 * [https://minidown.atusy.net](https://minidown.atusy.net)
 * [https://jvanelian.dev](https://jvanelian.dev)
+* [https://mousikofidi.info/](https://mousikofidi.info/)
 
 ***If you're using sakura, please let me know or make a pull
 request adding in your name. I would be super happy!! `^_^`***

@@ -1,4 +1,4 @@
-# [sakura](https://oxal.org/projects/sakura): a minimal ***classless*** css *framework* / **theme**.
+# [sakura](https://org/projects/sakura): a minimal ***classless*** css *framework* / **theme**.
 
 [![npm][npm-image]][npm-url]
 
@@ -107,10 +107,11 @@ to reset *before* using sakura.
 
 ## Sites using Sakura
 
-* [https://www.softwareyoga.com/](https://www.softwareyoga.com)
-* [https://www.taazakitchen.com/](https://www.taazakitchen.com)
 * [http://computableverse.com](http://computableverse.com)
 * [http://owlofathena.com](http://owlofathena.com)
+* [https://gaiwan.co](https://gaiwan.co)
+* [https://www.softwareyoga.com/](https://www.softwareyoga.com)
+* [https://www.taazakitchen.com/](https://www.taazakitchen.com)
 * [https://audioviz.surge.sh/vex.html](https://audioviz.surge.sh/vex.html)
 * [https://chocopy.org](https://chocopy.org)
 * [https://wasmbyexample.dev/](https://wasmbyexample.dev/)

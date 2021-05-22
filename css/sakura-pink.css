@@ -14,7 +14,7 @@ body {
   max-width: 38em;
   margin: auto;
   color: #49002d;
-  background-color: #f3e1ec;
+  background-color: #ffe4f5;
   padding: 13px; }
 
 @media (max-width: 684px) {
@@ -90,7 +90,7 @@ blockquote {
   padding-right: 0.8em;
   border-left: 5px solid #49182f;
   margin-bottom: 2.5rem;
-  background-color: #e6cadb; }
+  background-color: #f9c9e6; }
 
 blockquote p {
   margin-bottom: 0; }
@@ -103,7 +103,7 @@ img, video {
 
 /* Pre and Code */
 pre {
-  background-color: #e6cadb;
+  background-color: #f9c9e6;
   display: block;
   padding: 1em;
   overflow-x: auto;
@@ -113,7 +113,7 @@ pre {
 code {
   font-size: 0.9em;
   padding: 0 0.5em;
-  background-color: #e6cadb;
+  background-color: #f9c9e6;
   white-space: pre-wrap; }
 
 pre > code {
@@ -129,7 +129,7 @@ table {
 
 td, th {
   padding: 0.5em;
-  border-bottom: 1px solid #e6cadb; }
+  border-bottom: 1px solid #f9c9e6; }
 
 /* Buttons, forms and input */
 input, textarea {
@@ -147,7 +147,7 @@ textarea {
   text-decoration: none;
   white-space: nowrap;
   background-color: #49182f;
-  color: #f3e1ec;
+  color: #ffe4f5;
   border-radius: 1px;
   border: 1px solid #49182f;
   cursor: pointer;
@@ -158,7 +158,7 @@ textarea {
   .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
     background-color: #c75a8f;
     border-color: #c75a8f;
-    color: #f3e1ec;
+    color: #ffe4f5;
     outline: 0; }
 
 textarea, select, input {
@@ -166,8 +166,8 @@ textarea, select, input {
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
-  background-color: #e6cadb;
-  border: 1px solid #e6cadb;
+  background-color: #f9c9e6;
+  border: 1px solid #f9c9e6;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }

@@ -90,7 +90,7 @@ blockquote {
   padding-right: 0.8em;
   border-left: 5px solid #49182f;
   margin-bottom: 2.5rem;
-  background-color: #f9c9e6; }
+  background-color: #f8d2e9; }
 
 blockquote p {
   margin-bottom: 0; }
@@ -103,7 +103,7 @@ img, video {
 
 /* Pre and Code */
 pre {
-  background-color: #f9c9e6;
+  background-color: #f8d2e9;
   display: block;
   padding: 1em;
   overflow-x: auto;
@@ -113,7 +113,7 @@ pre {
 code {
   font-size: 0.9em;
   padding: 0 0.5em;
-  background-color: #f9c9e6;
+  background-color: #f8d2e9;
   white-space: pre-wrap; }
 
 pre > code {
@@ -129,7 +129,7 @@ table {
 
 td, th {
   padding: 0.5em;
-  border-bottom: 1px solid #f9c9e6; }
+  border-bottom: 1px solid #f8d2e9; }
 
 /* Buttons, forms and input */
 input, textarea {
@@ -166,8 +166,8 @@ textarea, select, input {
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
-  background-color: #f9c9e6;
-  border: 1px solid #f9c9e6;
+  background-color: #f8d2e9;
+  border: 1px solid #f8d2e9;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }

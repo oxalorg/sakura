@@ -62,16 +62,16 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #49182f; }
+  border-color: #980255; }
 
 a {
   text-decoration: none;
-  color: #49182f; }
+  color: #980255; }
   a:hover {
-    color: #c75a8f;
+    color: #753851;
     border-bottom: 2px solid #49002d; }
   a:visited {
-    color: #230b16; }
+    color: #660139; }
 
 ul {
   padding-left: 1.4em;
@@ -88,7 +88,7 @@ blockquote {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  border-left: 5px solid #49182f;
+  border-left: 5px solid #980255;
   margin-bottom: 2.5rem;
   background-color: #f8d2e9; }
 
@@ -135,7 +135,7 @@ td, th {
 input, textarea {
   border: 1px solid #49002d; }
   input:focus, textarea:focus {
-    border: 1px solid #49182f; }
+    border: 1px solid #980255; }
 
 textarea {
   width: 100%; }
@@ -146,18 +146,18 @@ textarea {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #49182f;
+  background-color: #980255;
   color: #ffe4f5;
   border-radius: 1px;
-  border: 1px solid #49182f;
+  border: 1px solid #980255;
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
     cursor: default;
     opacity: .5; }
   .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
-    background-color: #c75a8f;
-    border-color: #c75a8f;
+    background-color: #753851;
+    border-color: #753851;
     color: #ffe4f5;
     outline: 0; }
 
@@ -172,11 +172,11 @@ textarea, select, input {
   box-shadow: none;
   box-sizing: border-box; }
   textarea:focus, select:focus, input:focus {
-    border: 1px solid #49182f;
+    border: 1px solid #980255;
     outline: 0; }
 
 input[type="checkbox"]:focus {
-  outline: 1px dotted #49182f; }
+  outline: 1px dotted #980255; }
 
 label, legend, fieldset {
   display: block;

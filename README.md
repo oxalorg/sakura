@@ -121,6 +121,7 @@ to reset *before* using sakura.
 * [https://mousikofidi.info/](https://mousikofidi.info/)
 * [https://ocamlbook.org](https://ocamlbook.org)
 * [https://monkeyjunglejuice.github.io](https://monkeyjunglejuice.github.io)
+* [https://reinforce.moe/about-en.md](https://reinforce.moe/about-en.md)
 
 ***If you're using sakura, please let me know or make a pull
 request adding in your name. I would be super happy!! `^_^`***

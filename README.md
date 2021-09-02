@@ -123,6 +123,7 @@ to reset *before* using sakura.
 * [https://monkeyjunglejuice.github.io](https://monkeyjunglejuice.github.io)
 * [https://reinforce.moe/about-en.md](https://reinforce.moe/about-en.md)
 * [https://4clojure.oxal.org/](https://4clojure.oxal.org/)
+* [https://yunru.se](https://yunru.se)
 
 ***If you're using sakura, please let me know or make a pull
 request adding in your name. I would be super happy!! `^_^`***

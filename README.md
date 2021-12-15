@@ -107,8 +107,8 @@ to reset *before* using sakura.
 
 ## Sites using Sakura
 
+* [https://oxal.org/blog/](https://oxal.org/blog/)
 * [http://computableverse.com](http://computableverse.com)
-* [http://owlofathena.com](http://owlofathena.com)
 * [https://gaiwan.co](https://gaiwan.co)
 * [https://www.softwareyoga.com/](https://www.softwareyoga.com)
 * [https://www.taazakitchen.com/](https://www.taazakitchen.com)

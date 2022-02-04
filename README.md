@@ -5,7 +5,7 @@
 [npm-image]: https://img.shields.io/npm/v/sakura.css.svg?colorB=982c61
 [npm-url]: https://www.npmjs.com/package/sakura.css
 
-[Go to [Github repository](https://github.com/oxalorg/sakura)]
+[Go to [GitHub repository](https://github.com/oxalorg/sakura)]
 
 ![The cherry blossoms](sakura160.jpg)
 

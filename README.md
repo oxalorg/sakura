@@ -159,6 +159,15 @@ $font-size-base: 1.8rem;
 @import "main";
 ```
 
+## Dark mode
+
+Add a media attribute as follows to choose a darker there for dark mode.
+
+```
+<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" media="screen" />
+<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-dark.css" media="screen and (prefers-color-scheme: dark)" />
+```
+
 ## Contributing
 
 Please have a look at the [instructions](CONTRIBUTING.md).

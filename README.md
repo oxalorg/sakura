@@ -11,9 +11,9 @@
 
 > The perfect blossom is a rare thing. You could spend your life looking for one, and it would not be a wasted life
 
-Just drop in `sakura.css` to any webpage and go from
-ugly looking 1900's website to a pretty modern website
-in literally 0 seconds.
+Just drop in `sakura.css` and/or `sakura-dark.css` to any
+webpage and go from ugly looking 1900's website to a pretty
+modern website in literally 0 seconds.
 
 Easy to customize and build on top of sakura.
 
@@ -68,15 +68,18 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 
     ```bash
     wget "https://raw.githubusercontent.com/oxalorg/sakura/master/css/sakura.css"
+    wget "https://raw.githubusercontent.com/oxalorg/sakura/master/css/sakura-dark.css"
     ```
 
     **OR** download directly:
     [sakura.css](https://raw.githubusercontent.com/oxalorg/sakura/master/css/sakura.css)
+    [sakura.css](https://raw.githubusercontent.com/oxalorg/sakura/master/css/sakura-dark.css)
 
 2. Link it from html:
 
     ```html
     <link rel="stylesheet" href="sakura.css" type="text/css">
+    <link rel="stylesheet" href="sakura-dark.css" media="screen and (prefers-color-scheme: dark)" type="text/css" />
     ```
 
 **CDN**:
@@ -84,7 +87,8 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 1. Simply add this in your `<head>` tag.
 
     ```html
-    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-dark.css" media="screen and (prefers-color-scheme: dark)" type="text/css" />
     ```
 
 **Package Manager**:
@@ -157,15 +161,6 @@ $color-text: #4a4a4a;
 $font-size-base: 1.8rem;
 
 @import "main";
-```
-
-## Dark mode
-
-Add a media attribute as follows to choose a darker there for dark mode.
-
-```
-<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" media="screen" />
-<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura-dark.css" media="screen and (prefers-color-scheme: dark)" />
 ```
 
 ## Contributing

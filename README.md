@@ -22,6 +22,10 @@ variables for duotone color scheming. Comes with several
 existing themes, can be found in the `css` folder of this
 repository.
 
+Sakura supports a dark mode via `sakura-dark.css`, which
+along with a media query (see below) can be automatically
+selected on devices which switch based on time of day, etc.
+
 ## Demo
 
 Compare a live page **WITH** and **WITHOUT** sakura.

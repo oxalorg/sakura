@@ -36,6 +36,6 @@
   "homepage": "https://oxal.org/projects/sakura/",
   "devDependencies": {
     "bookmarklet": "0.0.6",
-    "node-sass": "^4.5.2"
+    "node-sass": "^7.0.0"
   }
 }

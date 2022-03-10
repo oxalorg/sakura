@@ -124,7 +124,6 @@ to reset *before* using sakura.
 * [https://reinforce.moe/about-en.md](https://reinforce.moe/about-en.md)
 * [https://4clojure.oxal.org/](https://4clojure.oxal.org/)
 * [https://yunru.se](https://yunru.se)
-* [https://mkws.sh](https://mkws.sh)
 * [https://articleparser.vercel.app/](https://articleparser.vercel.app/)
 * [https://solely.codes](https://solely.codes)
 

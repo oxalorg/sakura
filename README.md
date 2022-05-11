@@ -1,4 +1,4 @@
-# [sakura](https://org/projects/sakura): a minimal ***classless*** css *framework* / **theme**.
+# [sakura](https://oxal.org/projects/sakura): a minimal ***classless*** css *framework* / **theme**.
 
 [![npm][npm-image]][npm-url]
 

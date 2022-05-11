@@ -1,4 +1,4 @@
-# [sakura](https://oxal.org/projects/sakura): a minimal, ***classless*** css *framework* / **theme**.
+# [sakura](https://oxal.org/projects/sakura): a minimal, ***classless*** CSS *framework* / **theme**.
 
 [![npm][npm-image]][npm-url]
 
@@ -35,7 +35,7 @@ Also, my blog is a nice place to check sakura in action with heavy text (it has 
 ## Bookmark
 
 Don't want to develop using sakura but instead want to use it
-on websites with outdated 90s design (i.e. no css)?
+on websites with outdated 90s design (i.e. no CSS)?
 
 If so, enable sakura on any website using the following
 instructions:
@@ -50,10 +50,10 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 - Just drop it in, even on existing HTML content, to get a
   pretty-looking website (everything *"just works"*)
 - Quick prototyping, especially when working on backend sites
-  and can't yet be bothered to fidget with css/html
+  and can't yet be bothered to fidget with CSS/HTML
 - Building a quick (but pretty) site/blog for your best friend or aunt!
 - No need to remember tons of different class names for every
-  other css framework
+  other CSS framework
 - Works amazingly with markdown-generated HTML pages (eliminates
   the need for hacks like including `.img img-responsive` in
   `<img></img>` tags generated from markdown-parser

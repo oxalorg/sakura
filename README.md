@@ -9,18 +9,17 @@
 
 ![The cherry blossoms](sakura160.jpg)
 
-> The perfect blossom is a rare thing. You could spend your life looking for one, and it would not be a wasted life.
+> The perfect blossom is a rare thing. You could spend your life looking for
+> one, and it would not be a wasted life.
 
-Just drop `sakura.css` into any webpage and go from
-an ugly-looking 1900s website to a pretty, modern website
-in literally 0 seconds.
+Just drop `sakura.css` into any webpage and go from an ugly-looking 1900s
+website to a pretty, modern website in literally 0 seconds.
 
 It's easy to customize and build on top of sakura.
 
-Sakura supports extremely easy theming using variables
-for duotone color scheming. It comes with several existing
-themes, which can be found in the `css` folder of this
-repository.
+Sakura supports extremely easy theming using variables for duotone color
+scheming. It comes with several existing themes, which can be found in the `css`
+folder of this repository.
 
 ## Demo
 
@@ -28,14 +27,15 @@ Compare a live page **WITH** and **WITHOUT** sakura.
 
 * [https://oxal.org/projects/sakura/demo](https://oxal.org/projects/sakura/demo)
 
-Also, my blog is a nice place to check sakura in action with heavy text (it has a "change theme" button on the top as well):
+Also, my blog is a nice place to check sakura in action with heavy text (it has
+a "change theme" button on the top as well):
 
 * [oxal.org/blog](https://oxal.org/blog/)
 
 ## Bookmark
 
-Don't want to develop using sakura but instead want to use it
-on websites with outdated 90s design (i.e. no CSS)?
+Don't want to develop using sakura but instead want to use it on websites with
+outdated 90s design (i.e. no CSS)?
 
 If so, enable sakura on any website using the following
 instructions:
@@ -44,21 +44,21 @@ instructions:
 
 ## Why? - Reasons to use sakura
 
-How exactly does sakura help you? I had a discussion about this on
-the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_minimal_classless_css_theme_just_drop_it/).
+How exactly does sakura help you? I had a discussion about this on the
+[reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_minimal_classless_css_theme_just_drop_it/).
 
-- Just drop it in, even on existing HTML content, to get a
-  pretty-looking website (everything *"just works"*)
-- Quick prototyping, especially when working on backend sites
-  and can't yet be bothered to fidget with CSS/HTML
+- Just drop it in, even on existing HTML content, to get a pretty-looking
+  website (everything *"just works"*)
+- Quick prototyping, especially when working on backend sites and can't yet be
+  bothered to fidget with CSS/HTML
 - Building a quick (but pretty) site/blog for your best friend or aunt!
-- No need to remember tons of different class names for every
-  other CSS framework
-- Works amazingly with markdown-generated HTML pages (eliminates
-  the need for hacks like including `.img img-responsive` in
-  `<img></img>` tags generated from markdown-parser
-- Wonderful for people who aren't really good or interested in
-  design as sakura is nothing but a set of reasonable defaults
+- No need to remember tons of different class names for every other CSS
+  framework
+- Works amazingly with markdown-generated HTML pages (eliminates the need for
+  hacks like including `.img img-responsive` in `<img></img>` tags generated
+  from markdown-parser
+- Wonderful for people who aren't really good or interested in design as sakura
+  is nothing but a set of reasonable defaults
 
 ## Installation
 
@@ -81,7 +81,7 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 
 **CDN**:
 
-1. Simply add this in your `<head>` tag.
+1. Simply add this in your `<head>` tag:
 
     ```html
     <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
@@ -127,13 +127,12 @@ to reset *before* using sakura.
 * [https://articleparser.vercel.app/](https://articleparser.vercel.app/)
 * [https://solely.codes](https://solely.codes)
 
-***If you're using sakura, please let me know or make a pull
-request adding in your name. I would be super happy!! `^_^`***
+***If you're using sakura, please let me know or make a pull request adding in
+your name. I would be super happy!! `^_^`***
 
 ## Theming
 
-You can make your own themes by overriding some variables for
-colors.
+You can make your own themes by overriding some variables for colors.
 
 Here is an example file: `./scss/sakura-earthly.scss`:
 
@@ -179,7 +178,7 @@ Please have a look at the [instructions](CONTRIBUTING.md).
 
 ## Share some <3
 
-> Between our two lives there is also the life of the cherry
-> blossom. - *Basho Matsuo*
+> Between our two lives there is also the life of the cherry blossom.
+> - *Basho Matsuo*
 
 Please leave a star. :)

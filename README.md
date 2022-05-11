@@ -1,4 +1,4 @@
-# [sakura](https://oxal.org/projects/sakura): a minimal ***classless*** css *framework* / **theme**.
+# [sakura](https://oxal.org/projects/sakura): a minimal, ***classless*** css *framework* / **theme**.
 
 [![npm][npm-image]][npm-url]
 
@@ -9,17 +9,17 @@
 
 ![The cherry blossoms](sakura160.jpg)
 
-> The perfect blossom is a rare thing. You could spend your life looking for one, and it would not be a wasted life
+> The perfect blossom is a rare thing. You could spend your life looking for one, and it would not be a wasted life.
 
-Just drop in `sakura.css` to any webpage and go from
-ugly looking 1900's website to a pretty modern website
+Just drop `sakura.css` into any webpage and go from
+an ugly-looking 1900s website to a pretty, modern website
 in literally 0 seconds.
 
-Easy to customize and build on top of sakura.
+It's easy to customize and build on top of sakura.
 
-Sakura supports extremely easy theming support using
-variables for duotone color scheming. Comes with several
-existing themes, can be found in the `css` folder of this
+Sakura supports extremely easy theming using variables
+for duotone color scheming. It comes with several existing
+themes, which can be found in the `css` folder of this
 repository.
 
 ## Demo
@@ -28,14 +28,14 @@ Compare a live page **WITH** and **WITHOUT** sakura.
 
 * [https://oxal.org/projects/sakura/demo](https://oxal.org/projects/sakura/demo)
 
-Also my blog is a nice place to check sakura in action with heavy text (it has a change theme button on the top as well):
+Also, my blog is a nice place to check sakura in action with heavy text (it has a "change theme" button on the top as well):
 
 * [oxal.org/blog](https://oxal.org/blog/)
 
 ## Bookmark
 
-Don't want to develop using sakura, but instead want to use it
-on websites with outdated 90's design (i.e. no css)?
+Don't want to develop using sakura but instead want to use it
+on websites with outdated 90s design (i.e. no css)?
 
 If so, enable sakura on any website using the following
 instructions:
@@ -45,19 +45,19 @@ instructions:
 ## Why? - Reasons to use sakura
 
 How exactly does sakura help you? I had a discussion about this on
-the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_minimal_classless_css_theme_just_drop_it/)
+the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_minimal_classless_css_theme_just_drop_it/).
 
-- Just drop in, even on existing HTML content, to get a pretty
-  looking website (everything *"just works"*)
+- Just drop it in, even on existing HTML content, to get a
+  pretty-looking website (everything *"just works"*)
 - Quick prototyping, especially when working on backend sites
   and can't yet be bothered to fidget with css/html
 - Building a quick (but pretty) site/blog for your best friend or aunt!
 - No need to remember tons of different class names for every
   other css framework
-- Works amazingly with markdown generated HTML pages (eliminates
-  the need of hacks like including `.img img-responsive` in
-  markdown-parser generated `<img></img>` tags
-- Wonderful for people not really good or interested with
+- Works amazingly with markdown-generated HTML pages (eliminates
+  the need for hacks like including `.img img-responsive` in
+  `<img></img>` tags generated from markdown-parser
+- Wonderful for people who aren't really good or interested in
   design as sakura is nothing but a set of reasonable defaults
 
 ## Installation
@@ -73,7 +73,7 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
     **OR** download directly:
     [sakura.css](https://raw.githubusercontent.com/oxalorg/sakura/master/css/sakura.css)
 
-2. Link it from html:
+2. Link it from HTML:
 
     ```html
     <link rel="stylesheet" href="sakura.css" type="text/css">
@@ -105,7 +105,7 @@ the [reddit thread](https://www.reddit.com/r/webdev/comments/68zpdp/sakura_a_min
 [normalize.css](https://github.com/necolas/normalize.css/)
 to reset *before* using sakura.
 
-## Sites using Sakura
+## Sites using sakura
 
 * [https://oxal.org/blog/](https://oxal.org/blog/)
 * [http://computableverse.com](http://computableverse.com)
@@ -173,13 +173,13 @@ Please have a look at the [instructions](CONTRIBUTING.md).
 
 ## Contributors
 
-* Bookmarklet was added by [Zhouzi](https://github.com/Zhouzi)
+* Bookmarklet was added by [Zhouzi](https://github.com/Zhouzi).
 * The image is credited to
-[Deedster](https://pixabay.com/en/users/Deedster-2541644/)
+[Deedster](https://pixabay.com/en/users/Deedster-2541644/).
 
 ## Share some <3
 
 > Between our two lives there is also the life of the cherry
 > blossom. - *Basho Matsuo*
 
-Please leave a star :)
+Please leave a star. :)

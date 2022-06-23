@@ -126,6 +126,7 @@ to reset *before* using sakura.
 * [https://yunru.se](https://yunru.se)
 * [https://articleparser.vercel.app/](https://articleparser.vercel.app/)
 * [https://solely.codes](https://solely.codes)
+* [https://bluelander.bearblog.dev/](https://bluelander.bearblog.dev/)
 
 ***If you're using sakura, please let me know or make a pull request adding in
 your name. I would be super happy!! `^_^`***

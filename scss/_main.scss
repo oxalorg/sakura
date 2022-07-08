@@ -74,13 +74,13 @@ a {
     text-decoration: none;
     color: $color-blossom;
 
+    &:visited {
+        color: darken($color-blossom, 10%);
+    }
+
     &:hover {
         color: $color-fade;
         border-bottom: 2px solid $color-text;
-    }
-
-    &:visited {
-        color: darken($color-blossom, 10%);
     }
 
 }

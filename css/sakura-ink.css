@@ -67,11 +67,11 @@ hr {
 a {
   text-decoration: none;
   color: #3b22ea; }
+  a:visited {
+    color: #2913c6; }
   a:hover {
     color: #DA4453;
     border-bottom: 2px solid rgba(0, 0, 0, 0.85); }
-  a:visited {
-    color: #2913c6; }
 
 ul {
   padding-left: 1.4em;

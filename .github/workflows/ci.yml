@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+    paths: [ 'scss/**' ]
+  pull_request:
+    branches: [ "master" ]
+    paths: [ 'scss/**' ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: 'npm'
+    - run: npm ci
+    - name: Build CSS
+      run: npm run scss
+    - name: Commit Changes
+      # NOTE An empty commit will fail, this makes that acceptable for the CI to pass
+      # NOTE Can also fail if a commit was pushed before this step could finish
+      continue-on-error: true
+      run: |
+        git add ./css
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git commit -m "Build CSS [Skip CI]"
+        git push

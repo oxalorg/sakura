@@ -1,6 +1,6 @@
 {
   "name": "sakura.css",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A minimal classless css theme. Just drop it in and watch the website blossom!",
   "main": "css/sakura.css",
   "scripts": {
@@ -8,7 +8,8 @@
     "scss": "sass --no-source-map scss:css",
     "scss:watch": "sass --no-source-map -w scss:css",
     "build": "npm run scss",
-    "test": "npx http-server"
+    "test": "npx http-server",
+    "release": "bash release.sh"
   },
   "files": [
     "css",

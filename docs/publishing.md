@@ -1,5 +1,13 @@
 # Publishing to NPM
 
+### New automated way
+
+* Open `package.json`, up the version number
+* Make sure nothing else is changed in the working tree
+* Run `npm run release`
+
+### Manual OLD way
+
 I'll mostly be doing this manually, but I keep forgetting the steps.
 
 * Make sure you're logged in using `npm login` 
@@ -11,3 +19,4 @@ I'll mostly be doing this manually, but I keep forgetting the steps.
 * Publish `npm publish`
 * `git tag -a $VERSION -m "Release $VERSION"`
 * `git push --tags`
+

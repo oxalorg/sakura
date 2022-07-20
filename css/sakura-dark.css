@@ -68,11 +68,11 @@ hr {
 a {
   text-decoration: none;
   color: #ffffff; }
+  a:visited {
+    color: #e6e6e6; }
   a:hover {
     color: #c9c9c9;
     border-bottom: 2px solid #c9c9c9; }
-  a:visited {
-    color: #e6e6e6; }
 
 ul {
   padding-left: 1.4em;

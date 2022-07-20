@@ -1,5 +1,15 @@
 ## Unreleased
 
+## 1.4.0
+
+* Thanks to all the wonderful contributors below! <3💜🌸
+* Allow hover styles to work on visited links - @rottencandy
+* Make code, kbd, and samp all style the same way - @ElnuDev
+* Added a new pink theme `sakura-pink.css` - @ReinforceZwei
+* Updating video to display as per img - @hedgecox
+* Making font size of `pre` and `code` consistent - @hedgecox
+* CSS for a:visited - Thanks to @lucas-deangelis
+
 ## 1.3.1 (2020-07-27)
 
 * Improved blockquote design

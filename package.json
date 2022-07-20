@@ -1,13 +1,13 @@
 {
   "name": "sakura.css",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "A minimal classless css theme. Just drop it in and watch the website blossom!",
   "main": "css/sakura.css",
   "scripts": {
     "bookmarklet": "mkdir -p dist && bookmarklet ./src/bookmarklet.js ./dist/bookmarklet.js",
     "scss": "sass --no-source-map scss:css",
     "scss:watch": "sass --no-source-map -w scss:css",
-    "build": "npm run bookmarklet",
+    "build": "npm run scss",
     "test": "npx http-server"
   },
   "files": [

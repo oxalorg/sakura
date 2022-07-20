@@ -5,8 +5,8 @@
   "main": "css/sakura.css",
   "scripts": {
     "bookmarklet": "mkdir -p dist && bookmarklet ./src/bookmarklet.js ./dist/bookmarklet.js",
-    "scss": "node-sass scss -o css",
-    "scss:watch": "node-sass scss -o css -w",
+    "scss": "sass --no-source-map scss:css",
+    "scss:watch": "sass --no-source-map -w scss:css",
     "build": "npm run bookmarklet",
     "test": "npx http-server"
   },
@@ -35,7 +35,7 @@
   },
   "homepage": "https://oxal.org/projects/sakura/",
   "devDependencies": {
-    "bookmarklet": "0.0.6",
-    "node-sass": "^4.5.2"
+    "bookmarklet": "3.0.0",
+    "sass": "^1.53.0"
   }
 }

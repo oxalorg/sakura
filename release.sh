@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -e
+
 echo "Does package.json has the NEXT package version which you want to publish? Rest of the index must be clean"
 read -p "Continue? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
 

@@ -10,8 +10,7 @@
 4. Run `npm run scss:watch` and `npm run test`
 5. Make your changes -> Check them out at localhost:8080/test.html
 6. Make sure to test on Chrome and Firefox both
-7. Before commiting make sure you run `npm run build` and commit all css files as well
-5. Submit a PR with a description of your changes
+7. Submit a PR with a description of your changes
 
 ## Scripts
 

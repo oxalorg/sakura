@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+    paths: [ 'scss/**' ]
+  pull_request:
+    branches: [ "master" ]
+    paths: [ 'scss/**' ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: 'npm'
+    - run: npm ci
+    - name: Build CSS
+      run: npm run scss
+    - name: Commit and Push Changes
+      if: github.event_name != 'pull_request'
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Build CSS [Skip CI]"
+        file_pattern: 'css/**'

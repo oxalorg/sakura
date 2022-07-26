@@ -8,7 +8,6 @@
     "scss": "sass --no-source-map scss:css",
     "scss:watch": "sass --no-source-map -w scss:css",
     "build": "npm run scss",
-    "test": "npx http-server",
     "release": "bash release.sh"
   },
   "files": [

@@ -1,0 +1,21 @@
+#toggle {
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+#top {
+  padding-top: 40px;
+}
+#toggle-button {
+  align: right;
+}
+
+#switch-container {
+  display: block;
+}
+#switch-container.disabled {
+  display: none;
+}

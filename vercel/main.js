@@ -29,7 +29,7 @@ const styles = [
   element.setAttribute('disabled', 'disabled');
   element.innerHTML = css;
   element.dataset.name = name;
-  return { element, ...name };
+  return { element, name };
 });
 styles.forEach(({ element }) => head.appendChild(element));
 let current = 0;
@@ -42,10 +42,10 @@ const currentTheme = document.getElementById('current-theme');
 setSakura();
 
 function setSakura() {
-  const { element } = styles[current];
+  const { element, name } = styles[current];
   styles.forEach(({ element }) => element.disabled = true);
   element.disabled = false;
-  currentTheme.innerHTML = `Current theme: ${name}`;
+  currentTheme.innerHTML = name;
 }
 
 function toggleStyle() {

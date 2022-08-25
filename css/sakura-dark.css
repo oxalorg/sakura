@@ -221,3 +221,7 @@ label, legend, fieldset {
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
+
+div {
+   background-color: #4a4a4a
+}

@@ -101,7 +101,7 @@ How exactly does sakura help you? I had a discussion about this on the
     yarn add sakura.css
     ```
 
-**(Optional)** *but recommended* to use
+**(Optional *but also recommended*)** to use
 [normalize.css](https://github.com/necolas/normalize.css/)
 to reset *before* using sakura.
 
@@ -128,6 +128,7 @@ to reset *before* using sakura.
 * [https://solely.gay](https://solely.gay)
 * [https://bluelander.bearblog.dev/](https://bluelander.bearblog.dev/)
 * [https://onefetch.dev/](https://onefetch.dev/)
+* [thebelovedmoon's personal blog](https://thebelovedmoon.github.io/thebelovedmoon/blog)
 
 ***If you're using sakura, please let me know or make a pull request adding in
 your name. I would be super happy!! `^_^`***

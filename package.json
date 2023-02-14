@@ -37,6 +37,6 @@
   "homepage": "https://oxal.org/projects/sakura/",
   "devDependencies": {
     "bookmarklet": "3.0.0",
-    "sass": "^1.53.0"
+    "sass": "^1.58.1"
   }
 }

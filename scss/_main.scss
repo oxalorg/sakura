@@ -4,6 +4,18 @@
  * Project: https://github.com/oxalorg/sakura/
  */
 
+ $color-blossom: #1d7484 !default;
+ $color-fade: #982c61 !default;
+ 
+ $color-bg: #f9f9f9 !default;
+ $color-bg-alt: #f1f1f1 !default;
+ 
+ $color-text: #4a4a4a !default;
+ $font-size-base: 1.8rem !default;
+ 
+ $font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif !default;
+ $font-family-heading: $font-family-base !default;
+
 /* Body */
 
 html {

@@ -16,6 +16,9 @@
       left: 0px;
       top: 0px;
     }
+    #toggle .info {
+      padding: 0.5rem;
+    }
     #top {
       padding-top: 40px;
     }
@@ -25,8 +28,14 @@
   </style>
   <body>
     <div id="toggle">
-      <span><button id="toggleButton" onclick="toggleSakura();">Toggle</button> Toggle sakura.css on/off</span><br>
-      <span id="switch"><button id="switchThemeButton" onclick="switchSakuraTheme();">Switch</button>Current theme: <span id="currentTheme">sakura (default)</span></span>
+      <div>
+        <button id="toggleButton" onclick="toggleSakura();">Toggle</button>
+        <span class="info">Toggle sakura.css on/off</span>
+      </div>
+      <div id="switch">
+        <button id="switchThemeButton" onclick="switchSakuraTheme();">Switch</button>
+        <span class="info">Current theme: <span id="currentTheme">sakura (default)</span></span>
+      </div>
     </div>
     <div id="top" class="page" role="document">
       <header role="banner">
@@ -698,17 +707,25 @@ P R E F O R M A T T E D T E X T
       href: "sakura.css",
     },
     {
+      name: "sakura-dark",
+      href: "sakura-dark.css",
+    },
+    {
       name: "sakura-earthly",
       href: "sakura-earthly.css",
     },
     {
-      name: "sakura-vader",
-      href: "sakura-vader.css",
+      name: "sakura-ink",
+      href: "sakura-ink.css",
     },
     {
-      name: "sakura-dark",
-      href: "sakura-dark.css"
+      name: "sakura-pink",
+      href: "sakura-pink.css",
     },
+    {
+      name: "sakura-vader",
+      href: "sakura-vader.css",
+    }
   ];
   var current = 0;
   var sakura = document.getElementById("sakura-css");

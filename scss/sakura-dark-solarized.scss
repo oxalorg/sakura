@@ -1,14 +1,14 @@
-$color-blossom: #2aa198;
-$color-fade: #657b83;
-
-$color-bg: #002b36;
-$color-bg-alt: #073642;
-
-/* $color-text: #dedce5; */
-$color-text: #839496;
-$font-size-base: 1.8rem;
-
-$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-$font-family-heading: $font-family-base;
-
-@import "main";
+@use 'defaults' as defaults;
+@forward 'main' with (
+    $color-blossom: #2aa198,
+    $color-fade: #657b83,
+    
+    $color-bg: #002b36,
+    $color-bg-alt: #073642,
+    
+    $color-text: #839496,
+    $font-size-base: defaults.$font-size-base,
+    
+    $font-family-base: defaults.$font-family,
+    $font-family-heading: defaults.$font-family 
+);

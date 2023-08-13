@@ -128,6 +128,7 @@ to reset *before* using sakura.
 * [https://solely.gay](https://solely.gay)
 * [https://bluelander.bearblog.dev/](https://bluelander.bearblog.dev/)
 * [https://onefetch.dev/](https://onefetch.dev/)
+* [https://nonwiz.dev/](https://nonwiz.dev)
 
 ***If you're using sakura, please let me know or make a pull request adding in
 your name. I would be super happy!! `^_^`***

@@ -191,11 +191,15 @@ textarea {
         opacity: .5;
     }
 
-    &:focus:enabled, &:hover:enabled {
+    &:hover {
         background-color: $color-fade;
-        border-color: $color-fade;
         color: $color-bg;
         outline: 0;
+    }
+    
+    &:focus-visible {
+        outline-style: solid;
+        outline-width: 2px;
     }
 }
 
@@ -224,3 +228,4 @@ label, legend, fieldset {
     margin-bottom: .5rem;
     font-weight: 600;
 }
+

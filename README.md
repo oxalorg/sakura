@@ -62,7 +62,15 @@ How exactly does sakura help you? I had a discussion about this on the
 
 ## Installation
 
-**Manually** (*recommended*):
+**CDN** (*recommended*):
+
+1. Simply add this in your `<head>` tag:
+
+    ```html
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura.css" type="text/css">
+    ```
+    
+**Manually**:
 
 1. Download the file:
 
@@ -79,13 +87,6 @@ How exactly does sakura help you? I had a discussion about this on the
     <link rel="stylesheet" href="sakura.css" type="text/css">
     ```
 
-**CDN**:
-
-1. Simply add this in your `<head>` tag:
-
-    ```html
-    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
-    ```
 
 **Package Manager**:
 

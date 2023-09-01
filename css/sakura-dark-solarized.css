@@ -154,6 +154,7 @@ table {
   text-align: justify;
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: 2rem;
 }
 
 td, th {

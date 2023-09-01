@@ -139,24 +139,28 @@ You can make your own themes by overriding some variables for colors.
 Here is an example file: `./scss/sakura-earthly.scss`:
 
 ```scss
-/* Duotone color scheming:
-   Uses blossom as the revealing/stark color
-   Uses fade as the more prominent color
-*/
-$color-blossom: #338618;
-$color-fade: #5e5e5e;
-
-/* bg color is used for the background of the page
-   bg-alt is used for code-blocks etc
-*/
-$color-bg: #f9f9f9;
-$color-bg-alt: #C7E3BE;
-
-/* color of all the text on the page */
-$color-text: #4a4a4a;
-$font-size-base: 1.8rem;
-
-@import "main";
+@use 'defaults' as defaults;
+@forward 'main' with (
+    /* Duotone color scheming:
+       Uses blossom as the revealing/stark color
+       Uses fade as the more prominent color
+    */
+    $color-blossom: #007559,
+    $color-fade: #006994,
+  
+    /* bg color is used for the background of the page
+       bg-alt is used for code-blocks etc
+    */
+    $color-bg: #ffffff,
+    $color-bg-alt: #f7f7f7,
+  
+    /* color of all the text on the page */
+    $color-text: #222222,
+    $font-size-base: defaults.$font-size-base,
+          
+    $font-family-base: defaults.$font-family,
+    $font-family-heading: defaults.$font-family 
+);
 ```
 
 ## Dark mode

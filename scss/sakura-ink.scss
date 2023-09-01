@@ -1,13 +1,14 @@
-$color-blossom: #3b22ea;
-$color-fade: #DA4453;
+@use 'defaults' as defaults;
+@forward 'main' with (
+    $color-blossom: #3b22ea,
+    $color-fade: #DA4453,
 
-$color-bg: #ffffff;
-$color-bg-alt: #f7f7f7;
+    $color-bg: #ffffff,
+    $color-bg-alt: #f7f7f7,
 
-$color-text: rgba(0,0,0,0.85);
-$font-size-base: 1.8rem;
-
-$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-$font-family-heading: $font-family-base;
-
-@import "main";
+    $color-text: rgba(0,0,0,0.85),
+    $font-size-base: defaults.$font-size-base,
+    
+    $font-family-base: defaults.$font-family,
+    $font-family-heading: defaults.$font-family 
+);

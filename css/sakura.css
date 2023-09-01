@@ -190,11 +190,14 @@ textarea {
   cursor: default;
   opacity: 0.5;
 }
-.button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type=submit]:focus:enabled, input[type=submit]:hover:enabled, input[type=reset]:focus:enabled, input[type=reset]:hover:enabled, input[type=button]:focus:enabled, input[type=button]:hover:enabled, input[type=file]::file-selector-button:focus:enabled, input[type=file]::file-selector-button:hover:enabled {
+.button:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, input[type=file]::file-selector-button:hover {
   background-color: #982c61;
-  border-color: #982c61;
   color: #f9f9f9;
   outline: 0;
+}
+.button:focus-visible, button:focus-visible, input[type=submit]:focus-visible, input[type=reset]:focus-visible, input[type=button]:focus-visible, input[type=file]::file-selector-button:focus-visible {
+  outline-style: solid;
+  outline-width: 2px;
 }
 
 textarea, select, input {

@@ -178,6 +178,7 @@ Please have a look at the [instructions](CONTRIBUTING.md).
 * Bookmarklet was added by [Zhouzi](https://github.com/Zhouzi).
 * The image is credited to
 [Deedster](https://pixabay.com/en/users/Deedster-2541644/).
+* Vite previews added by @spenserblack [SpenserBlack](https://github.com/spenserblack).
 
 ## Share some <3
 

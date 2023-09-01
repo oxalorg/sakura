@@ -1,5 +1,14 @@
 ## Unreleased
 
+# 1.5.0 (2023-09-01)
+
+* Style input type=file buttons
+* Add new theme `radical`
+* Vite preview builds
+* Table now will have a small bottom margin
+* :focus state different from :hover state
+* Focus for button and inputs only when `:focus-visible` is active
+
 ## 1.4.0
 
 * Thanks to all the wonderful contributors below! <3💜🌸

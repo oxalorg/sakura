@@ -173,7 +173,7 @@ textarea {
   width: 100%;
 }
 
-.button, button, input[type=submit], input[type=reset], input[type=button], input[type=file]::file-selector-button {
+.button, input[type=file]::file-selector-button, button, input[type=submit], input[type=reset], input[type=button] {
   display: inline-block;
   padding: 5px 10px;
   text-align: center;
@@ -186,16 +186,18 @@ textarea {
   cursor: pointer;
   box-sizing: border-box;
 }
-.button[disabled], button[disabled], input[type=submit][disabled], input[type=reset][disabled], input[type=button][disabled], input[type=file]::file-selector-button[disabled] {
-  cursor: default;
-  opacity: 0.5;
-}
-.button:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, input[type=file]::file-selector-button:hover {
+.button:hover, input[type=file]::file-selector-button:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
   background-color: #DA4453;
   color: #ffffff;
   outline: 0;
 }
-.button:focus-visible, button:focus-visible, input[type=submit]:focus-visible, input[type=reset]:focus-visible, input[type=button]:focus-visible, input[type=file]::file-selector-button:focus-visible {
+
+.button[disabled], input[type=file][disabled]::file-selector-button, button[disabled], input[type=submit][disabled], input[type=reset][disabled], input[type=button][disabled] {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.button:focus-visible, input[type=file]:focus-visible, button:focus-visible, input[type=submit]:focus-visible, input[type=reset]:focus-visible, input[type=button]:focus-visible {
   outline-style: solid;
   outline-width: 2px;
 }

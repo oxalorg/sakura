@@ -69,7 +69,7 @@ How exactly does sakura help you? I had a discussion about this on the
     ```html
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura.css" type="text/css">
     ```
-    
+
 **Manually**:
 
 1. Download the file:
@@ -131,8 +131,7 @@ to reset *before* using sakura.
 * [https://onefetch.dev/](https://onefetch.dev/)
 * [https://nonwiz.dev/](https://nonwiz.dev)
 * [https://frost.kiwi/](https://frost.kiwi)
-*
-[https://progress.jackkershaw.net](https://progress.jackkershaw.net)
+* [https://progress.jackkershaw.net](https://progress.jackkershaw.net)
 
 ***If you're using sakura, please let me know or make a pull request adding in
 your name. I would be super happy!! `^_^`***

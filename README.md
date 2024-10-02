@@ -132,6 +132,7 @@ to reset *before* using sakura.
 * [https://nonwiz.dev/](https://nonwiz.dev)
 * [https://frost.kiwi/](https://frost.kiwi)
 * [https://progress.jackkershaw.net](https://progress.jackkershaw.net)
+* [https://bigdetector.com/](https://bigdetector.com/)
 
 ***If you're using sakura, please let me know or make a pull request adding in
 your name. I would be super happy!! `^_^`***

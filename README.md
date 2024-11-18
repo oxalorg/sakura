@@ -126,11 +126,11 @@ to reset *before* using sakura.
 * [https://4clojure.oxal.org/](https://4clojure.oxal.org/)
 * [https://yunru.se](https://yunru.se)
 * [https://articleparser.vercel.app/](https://articleparser.vercel.app/)
-* [https://solely.gay](https://solely.gay)
 * [https://bluelander.bearblog.dev/](https://bluelander.bearblog.dev/)
 * [https://onefetch.dev/](https://onefetch.dev/)
 * [https://nonwiz.dev/](https://nonwiz.dev)
 * [https://frost.kiwi/](https://frost.kiwi)
+* [https://kylenazario.com](https://kylenazario.com)
 * [https://progress.jackkershaw.net](https://progress.jackkershaw.net)
 * [https://bigdetector.com/](https://bigdetector.com/)
 

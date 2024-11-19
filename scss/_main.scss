@@ -172,38 +172,44 @@ textarea {
     width: 100%;
 }
 
-.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
-    @at-root &, input[type=file]::file-selector-button {
-        display: inline-block;
-        padding: 5px 10px;
-        text-align: center;
-        text-decoration: none;
-        white-space: nowrap;
+.button, button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type=file]::file-selector-button {
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
 
-        background-color: $color-blossom;
+    background-color: $color-blossom;
+    color: $color-bg;
+    border-radius: 1px;
+    border: 1px solid $color-blossom;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    &:hover {
+        background-color: $color-fade;
         color: $color-bg;
-        border-radius: 1px;
-        border: 1px solid $color-blossom;
-        cursor: pointer;
-        box-sizing: border-box;
-
-        &:hover {
-            background-color: $color-fade;
-            color: $color-bg;
-            outline: 0;
-        }
+        outline: 0;
     }
+}
 
-    @at-root &[disabled], input[type=file][disabled]::file-selector-button {
+.button, button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type=file] {
+    &[disabled] {
         cursor: default;
         opacity: .5;
     }
 
-    @at-root &, input[type=file] {
-        &:focus-visible {
-            outline-style: solid;
-            outline-width: 2px;
-        }
+    &:focus-visible {
+        outline-style: solid;
+        outline-width: 2px;
     }
 }
 

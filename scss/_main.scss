@@ -172,7 +172,11 @@ textarea {
     width: 100%;
 }
 
-.button, button, input[type="submit"], input[type="reset"], input[type="button"], input[type=file]::file-selector-button {
+.button, button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type=file]::file-selector-button {
     display: inline-block;
     padding: 5px 10px;
     text-align: center;
@@ -186,17 +190,23 @@ textarea {
     cursor: pointer;
     box-sizing: border-box;
 
-    &[disabled] {
-        cursor: default;
-        opacity: .5;
-    }
-
     &:hover {
         background-color: $color-fade;
         color: $color-bg;
         outline: 0;
     }
-    
+}
+
+.button, button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type=file] {
+    &[disabled] {
+        cursor: default;
+        opacity: .5;
+    }
+
     &:focus-visible {
         outline-style: solid;
         outline-width: 2px;

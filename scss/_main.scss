@@ -158,6 +158,10 @@ td, th {
     border-bottom: 1px solid $color-bg-alt;
 }
 
+tr:nth-child(even) {
+    background-color: $color-bg-alt;
+}
+
 /* Buttons, forms and input */
 
 input, textarea {

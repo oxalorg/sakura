@@ -1,5 +1,7 @@
 ## Unreleased
 
+# 1.5.1 (2025-06-25)
+
 - Fix disabled buttons 
 - Fix file-selector-button pseudo element bug
 

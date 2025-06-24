@@ -1,5 +1,8 @@
 ## Unreleased
 
+- Fix disabled buttons 
+- Fix file-selector-button pseudo element bug
+
 # 1.5.0 (2023-09-01)
 
 * Style input type=file buttons

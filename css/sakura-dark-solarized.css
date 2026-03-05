@@ -162,6 +162,10 @@ td, th {
   border-bottom: 1px solid #073642;
 }
 
+tr:nth-child(even) {
+  background-color: #073642;
+}
+
 /* Buttons, forms and input */
 input, textarea {
   border: 1px solid #839496;

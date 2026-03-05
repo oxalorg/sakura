@@ -161,6 +161,10 @@ td, th {
   border-bottom: 1px solid #f8d2e9;
 }
 
+tr:nth-child(even) {
+  background-color: #f8d2e9;
+}
+
 /* Buttons, forms and input */
 input, textarea {
   border: 1px solid #49002d;
